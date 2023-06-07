@@ -1,0 +1,14 @@
+# don't push local rendered files in master branch
+/docs
+_book/
+_bookdown_files/
+libs/
+**/*.bib
+**/*.html
+# R and Rstudio specific files
+*.Rproj
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_*
