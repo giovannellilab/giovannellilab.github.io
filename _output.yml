@@ -3,11 +3,12 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li class="toc-logo"><a href="./"><img src="img/glab_logo_notext.png"></a></li>
+        <div style="text-align:center">
+        <li class="toc-logo"><a href="./"><img src="img/glab_logo_notext.png" width="200" height="200"></a></li>
         <li><a href="./">G.Lab. Book</a></li>
+        </div>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/giovannellilab/giovannellilab.github.io
     download: ["pdf", "epub"]
     sharing:
       github: yes
