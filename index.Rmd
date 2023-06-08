@@ -1,5 +1,5 @@
 ---
-title: "Bioinformatics multiverse"
+title: "G.Lab. Book"
 author: "Davide Corso"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -16,4 +16,4 @@ link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---
 
-# ciao
+# Introduction
