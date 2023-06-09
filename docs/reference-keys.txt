@@ -1,4 +1,6 @@
 introduction
+design-principles
+credits
 tutorial
 literature
 methods
