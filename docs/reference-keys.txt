@@ -11,6 +11,5 @@ list-of-future-features
 how-to-cite-the-polygon-plot
 questions-support-and-contribute
 gallery-of-polygons
-tutorial
 literature
 methods
