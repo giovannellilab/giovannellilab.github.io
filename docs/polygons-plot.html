@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 Polygons Plot | G.Lab. Book</title>
+  <meta name="description" content="Book for documentation, tutorial and protocols of the Giovannelli Lab." />
+  <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 Polygons Plot | G.Lab. Book" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Book for documentation, tutorial and protocols of the Giovannelli Lab." />
+  <meta name="github-repo" content="giovannellilab/giovannellilab.github.io" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 Polygons Plot | G.Lab. Book" />
+  
+  <meta name="twitter:description" content="Book for documentation, tutorial and protocols of the Giovannelli Lab." />
+  
+
+<meta name="author" content="Davide Corso" />
+<meta name="author" content="Donato Giovannelli" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="tutorial.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<div style="text-align:center">
+<li class="toc-logo"><a href="./"><img src="img/glab_logo_notext.png" width="200" height="200"></a></li>
+<li><a href="./"><strong>G.Lab. Book</strong></a></li>
+</div>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#design-principles"><i class="fa fa-check"></i><b>1.1</b> Design principles</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#credits"><i class="fa fa-check"></i><b>1.2</b> Credits</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="polygons-plot.html"><a href="polygons-plot.html"><i class="fa fa-check"></i><b>2</b> Polygons Plot</a>
+<ul>
+<li class="chapter" data-level="2.0.1" data-path="polygons-plot.html"><a href="polygons-plot.html#polygon-plot-features"><i class="fa fa-check"></i><b>2.0.1</b> Polygon plot features</a></li>
+<li class="chapter" data-level="2.0.2" data-path="polygons-plot.html"><a href="polygons-plot.html#the-inception"><i class="fa fa-check"></i><b>2.0.2</b> The inception</a></li>
+<li class="chapter" data-level="2.0.3" data-path="polygons-plot.html"><a href="polygons-plot.html#reading-the-polygon-plot"><i class="fa fa-check"></i><b>2.0.3</b> Reading the Polygon plot</a></li>
+<li class="chapter" data-level="2.0.4" data-path="polygons-plot.html"><a href="polygons-plot.html#using-the-polygon-plots-the-shiny-app"><i class="fa fa-check"></i><b>2.0.4</b> Using the Polygon plots: the Shiny app</a></li>
+<li class="chapter" data-level="2.0.5" data-path="polygons-plot.html"><a href="polygons-plot.html#polygons-plot-array"><i class="fa fa-check"></i><b>2.0.5</b> Polygons plot array</a></li>
+<li class="chapter" data-level="2.0.6" data-path="polygons-plot.html"><a href="polygons-plot.html#list-of-future-features"><i class="fa fa-check"></i><b>2.0.6</b> List of future features</a></li>
+<li class="chapter" data-level="2.0.7" data-path="polygons-plot.html"><a href="polygons-plot.html#how-to-cite-the-polygon-plot"><i class="fa fa-check"></i><b>2.0.7</b> How to cite the Polygon plot</a></li>
+<li class="chapter" data-level="2.0.8" data-path="polygons-plot.html"><a href="polygons-plot.html#questions-support-and-contribute"><i class="fa fa-check"></i><b>2.0.8</b> Questions, support and contribute!</a></li>
+<li class="chapter" data-level="2.0.9" data-path="polygons-plot.html"><a href="polygons-plot.html#gallery-of-polygons"><i class="fa fa-check"></i><b>2.0.9</b> Gallery of Polygons</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="tutorial.html"><a href="tutorial.html"><i class="fa fa-check"></i><b>3</b> Tutorial</a></li>
+<li class="chapter" data-level="4" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>4</b> Literature</a></li>
+<li class="chapter" data-level="5" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>5</b> Methods</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">G.Lab. Book</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="polygons-plot" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">Chapter 2</span> Polygons Plot<a href="polygons-plot.html#polygons-plot" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Written by:</em> Donato Giovannelli</p>
+<p>In case you have not had enough plot and chart types, here come a new one: the Polygon plot. A Polygon plot [<em>singular</em>, Polygons plot, <em>plural</em>] is designed to visualize multivariate ranges as opposite to single data points. I have developed the concept for the polygons plot in late 2018 while working on our review <a href="https://www.frontiersin.org/articles/10.3389/fmicb.2019.00780/full">Living at the Extremes: Extremophiles and the Limits of Life in a Planetary Context</a>, published in 2019 in Frontiers in Microbiology.</p>
+<p>While working on the review, I started collecting data regarding the range (minimum and maximum) for physico-chemical parameters of Earth’s life such as pH, temperature, salinity and pressure. I wanted to visualize the ranges of these variables in a single plot, but I could not find a simple way to do it. After some research and a lot of doodling, the polygons plot was born!</p>
+<p><img src="img/polygonplot/merino_frontiers.jpg" class="img-responsive" alt="Merino_et_al_2019_polygon_plot"></p>
+<blockquote>
+<p>The first polygons plot appeared in <a href="https://www.frontiersin.org/articles/10.3389/fmicb.2019.00780/full">Merino et al. 2019 Frontiers in Microbiology</a>. If you find the plot interesting or useful, consider citing the Merino et al. 2019 paper. More information about how to cite the Polygon plot are available at the section <a href="polygons-plot.html#how-to-cite-the-polygon-plot">how to cite</a></p>
+</blockquote>
+<div id="polygon-plot-features" class="section level3 hasAnchor" number="2.0.1">
+<h3><span class="header-section-number">2.0.1</span> Polygon plot features<a href="polygons-plot.html#polygon-plot-features" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Polygon plot have many features that makes them unique and convenient to show multivariate ranges and a number of statistical properties.</p>
+<ul>
+<li>It is possible to plot from 3 to 6 variable in a single 2D plot (potentially more, depending of big your final plot will be)</li>
+<li>The showed range can be the interval minimum-maximum, interquartile range or any other interval</li>
+<li>You can add the mean (arithmetic, geometric, etc…) as a single line running through the plot</li>
+<li>You can easily use the shape of the polygon plot to categorize you observations into discrete groups having a similar multivariate distribution of the ranges for the selected variables</li>
+<li>Soon(ish) you’ll be able to plot the boxplot or density plot on the outside of each axis</li>
+<li>You can use the perimeter of the axis projection or the area of the polygon to sort you polygons plot array or query your visualization based on extension of the range of variables visualized</li>
+</ul>
+<blockquote>
+<p><strong>A word of caution:</strong> While it defines a space on a plane that can be used for algebraic operations to work on a series of plots (called a polygons plot array), it does not define the state space of the possible combinations of the visualized variables. Visualizing the polygon plot as the state space of possible instances might seem like an intuitive thing to do, but it is inherently <strong><em>wrong</em></strong>! You are have been warned!</p>
+</blockquote>
+<p>We are working on a R package to be able to make Polygons plot easily and add some of the functionalities we have imagined discussing these plots with Shaunna Morrison, Fang Huang and Anirudh Prabhu. For now, we have a <em>beta</em> Shiny app built by <a href="https://people.csiro.au/H/F/f-huang">Fang Huang</a> than can be used right now to create Polygons plot and download them as <strong>.png</strong> or <strong>.svg</strong>. You can find the <em>beta</em> of the app here: <a href="https://fanghuang.shinyapps.io/DonatoPlot/">fanghuang.shinyapps.io/DonatoPlot/</a>.</p>
+<blockquote>
+<p>Fun fact! My friends refer to these plots as “Donato’s plots”!</p>
+</blockquote>
+<p>Keep reading to find out how to use and read polygons plot, how they were invented and how they stack against other popular choices for plotting multivariate data. Or just jump ahead to the section you are most interest in!</p>
+<ul>
+<li><a href="polygons-plot.html#the-inception">The inception</a></li>
+<li><a href="polygons-plot.html#reading-the-polygon-plot">Reading the Polygon plot</a></li>
+<li><a href="#using-the-plot-the-shiny-app">Using the Polygon plot: the Shiny app</a></li>
+<li><a href="polygons-plot.html#polygons-plot-array">Polygons plot array</a></li>
+<li><a href="polygons-plot.html#list-of-future-features">List of future features</a></li>
+<li><a href="polygons-plot.html#how-to-cite-the-polygon-plot">How to cite the Polygon plot</a></li>
+<li><a href="polygons-plot.html#questions-support-and-contribute">Questions, support and contribute!</a></li>
+<li><a href="polygons-plot.html#gallery-of-polygons">Gallery of Polygons</a></li>
+</ul>
+</div>
+<div id="the-inception" class="section level3 hasAnchor" number="2.0.2">
+<h3><span class="header-section-number">2.0.2</span> The inception<a href="polygons-plot.html#the-inception" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>While working on the review I started trying to put on the same plot multiple ranges of variables. The first choice was to use multiple <a href="https://en.wikipedia.org/wiki/Box_plot">boxplots</a>. But while they are very robust and well known, it was difficult to portray the kind of information I was looking for. Boxplot had to be grouped by variable, making across variable comparison difficult, or by group, making across group comparison difficult. A lot of boxplots were required to put all the variable together, with way to much ink on the page. Messy. I did not like it.</p>
+<!-- <img src="img/polygonplot/boxplot_plot.png" class="img-responsive" alt="boxplot-plot-example"> -->
+<blockquote>
+<p>My planetary and life data used for the Merino et al. 2019 paper visualized as a boxplots.</p>
+</blockquote>
+<p>Searching the web I found <a href="https://en.wikipedia.org/wiki/Forest_plot">forest plot</a>, which in essence are a simplified form of bloxplot were the range is represented by a single line. The result is a series of parallel line (thus reducing the amount of ink, but also the amount of information reported) essentially suffering the same problems of the boxplot.</p>
+<p><img src="img/polygonplot/forest_plot.png" class="img-responsive" alt="forest-plot-example">
+&gt;The same data as above visualized as a Forest plot.</p>
+<p>The type of comparison I was looking for was similar to the information displayed by a <a href="https://en.wikipedia.org/wiki/Radar_chart">spider chart</a> (called also polar chart, radar chart or star plot among many other names). While not one of my favorite, spider chart are useful to visualize multivariate data in a single plot, and give more intuitive comparison of the distribution of the data among different variables between different plots. The problem arises when for each variable you don’t want just to plot a single value, but you want to show the data range (like minimum and maximum), or a combination of range and average.</p>
+<p><img src="img/polygonplot/spider_chart.png" class="img-responsive" alt="spider-plot-example">
+&gt;The same data as above plotted as spider plots plot. Ranges are difficult to visualize and sometimes impossible to plot, depending on the variable’s order.</p>
+<p>I started doodling through a series of option, and devising a series of rules. Soon I started converging on the idea that polygons were the best solution to visualize ranges for n-variables.</p>
+<p><img src="img/polygonplot/inception1.jpg" class="img-responsive" alt="doodling-the-polygon-plot" width="40%">
+<img src="img/polygonplot/inception2.jpg" class="img-responsive" alt="doodling-the-polygon-plot" width="40%">
+<img src="img/polygonplot/inception3.jpg" class="img-responsive" alt="doodling-the-polygon-plot" width="40%">
+<img src="img/polygonplot/inception4.jpg" class="img-responsive" alt="doodling-the-polygon-plot" width="40%"></p>
+</div>
+<div id="reading-the-polygon-plot" class="section level3 hasAnchor" number="2.0.3">
+<h3><span class="header-section-number">2.0.3</span> Reading the Polygon plot<a href="polygons-plot.html#reading-the-polygon-plot" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Reading a polygon plot is easy. The plot has 3 to 6 axis representing the different variables to be visualized. The range (for example minimum-maximum values) are plotted as a segment parallel to its corresponding axis. The different segments are linked together to form a polygon. The resulting polygon might have up to 2x the variable number. This is due to an arbitrary space inserted between the different axis to improve readability and avoid plotting artifacts (called offset). Single values are plotted as a point (vertex), while missing value are represented by a missing edge on the data polygon. The multivariate space is defined by the resulting polygon. The mean for each variable can be represented by a single point and connected by a line.</p>
+<blockquote>
+<p><strong>A word of caution</strong>: The multivariate space defined in the 2D plane by the polygon plot does not define the state space of the possible combinations of the visualized variables. Thinking of the polygon plot as the state space of possible instances might seem like an intuitive thing to do, but it is inherently <em><strong>wrong</strong></em>! You are have been warned!</p>
+</blockquote>
+<p><img src="img/polygonplot/reading_polygon_plot.png" class="img-responsive" alt="reading_a_polygon_plot">
+&gt;Anatomy of a polygon plot, with all the main characteristic explained.</p>
+</div>
+<div id="using-the-polygon-plots-the-shiny-app" class="section level3 hasAnchor" number="2.0.4">
+<h3><span class="header-section-number">2.0.4</span> Using the Polygon plots: the Shiny app<a href="polygons-plot.html#using-the-polygon-plots-the-shiny-app" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>While we are working toward a R package to be able to use polygon plots and their functionalities (<a href="polygons-plot.html#questions-support-and-contribute">Help us by contributing!</a>), <a href="https://people.csiro.au/H/F/f-huang">Fang Huang</a> has built a Shiny app than can be used to create Polygons plot. The resulting plots can be download as <strong>.png</strong> or <strong>.svg</strong>. You can find the <em>beta</em> of the app here: <a href="https://fanghuang.shinyapps.io/DonatoPlot/">fanghuang.shinyapps.io/DonatoPlot/</a>.</p>
+<p>Data can be provided as .csv file to the app in one of three ways (also mixing them in the same data file):</p>
+<blockquote>
+<p>Table of the formats that can be provided to the polygon plot app</p>
+</blockquote>
+<p>|–|–|–|–|</p>
+<p>You can find an example of the format in the app. Once you have uploaded the data file you can progress to step 2 and make you polygon plot. The Shiny app allows you to make only one plot at the time, but it has a nice number of functionalities. You can selected the variable number, you can select the offset, map different variables to the axis of your choice and vary aesthetics of the plot. Once you are done download the plot in your favorite format!</p>
+</div>
+<div id="polygons-plot-array" class="section level3 hasAnchor" number="2.0.5">
+<h3><span class="header-section-number">2.0.5</span> Polygons plot array<a href="polygons-plot.html#polygons-plot-array" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Combining more than one polygon plot will give you what we call a polygons plot array. So far we have been using this term to refer to polygons plot that have 6+ plots, but this is totally arbitrary. Polygons plot array give you an excellent way to compare the range of a multivariate space across different sample/sites/observations very quickly. Our brain is very good in distinguishing different shapes, and pattern can be recognized quickly.</p>
+<p><img src="img/polygonplot/polygons_array.png" class="img-responsive" alt="a_polygons_plot_array">
+&gt; An example of a polygons plot array sorted by area of the polygon.</p>
+<p>In polygons plot array the only rule to make it worthwhile is to keep the order, type, number and scale of the variables constant across all the different plots. Once you have the array you can potentially ask (and will be able to in the R package) questions based on simple geometric calculations. For example you can sort your plots based on the perimeter or the area of the polygon. You can use skewness or symmetries to sort your plots. We think in the future we will use image recognition to identify specific characteristics of the plot to classify it in the multivariate space.</p>
+</div>
+<div id="list-of-future-features" class="section level3 hasAnchor" number="2.0.6">
+<h3><span class="header-section-number">2.0.6</span> List of future features<a href="polygons-plot.html#list-of-future-features" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Here an overgrowing list of possible features to be included in the R packages we are developing. We periodically update the list based on the feature request on GitHub, but head there for complete list. Also, consider contributing if you know how to code!</p>
+<ul>
+<li>Plotting different basic statistics (mean, mode, median, interquartile range)</li>
+<li>Adding boxplots or density functions on the outside of each axis</li>
+<li>Directly plot a polygons plot array</li>
+<li>versatility in removing plot aesthetics for versatile plotting</li>
+<li>Sorting polygons plot array based on area and perimeter of the polygons</li>
+<li>Using symmetries and skewness to group polygons</li>
+<li>Using image recognition to classify plots</li>
+</ul>
+</div>
+<div id="how-to-cite-the-polygon-plot" class="section level3 hasAnchor" number="2.0.7">
+<h3><span class="header-section-number">2.0.7</span> How to cite the Polygon plot<a href="polygons-plot.html#how-to-cite-the-polygon-plot" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>We are currently working on a paper to describe the Polygon plot more formally, and we will post the apporoapriate citation here soon. Come back to take a look in a few months (I know, we are veeeeeery slow!). Meanwhile, in case you have found the polygon plot useful, please consider using the two following citations:</p>
+<p>Giovannelli, D., Morrison, S.M., Prabhu, A., Huang, F. (2021). Polygons plot: a new aesthetics for visualizing multivariate data. GitHub, <a href="doi:10" class="uri">doi:10</a>.</p>
+<p>Merino, N., Aronson, H. S., Bojanova, D. P., Feyhl-Buska, J., Wong, M. L., Zhang, S., et al. (2019). Living at the Extremes: Extremophiles and the Limits of Life in a Planetary Context. Frontiers in Microbiology, 10. <a href="doi:10.3389/fmicb.2019.00780" class="uri">doi:10.3389/fmicb.2019.00780</a>.</p>
+</div>
+<div id="questions-support-and-contribute" class="section level3 hasAnchor" number="2.0.8">
+<h3><span class="header-section-number">2.0.8</span> Questions, support and contribute!<a href="polygons-plot.html#questions-support-and-contribute" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In case you have any question or suggestion please drop me a line on <a href="">twitter</a>, post here on GitHub or visit our group website <a href="http://www.donatogiovannelli.com">www.donatogiovannelli.com</a> and get in touch with us!</p>
+<p>We are developing an R package for Polygons plot, and we would like to extend the functionality of the Shiny app. If you have experience in developing R packages, ggplot related features, Shiny, or if you simply want to help with the documentation get in touch! We would love to get additional help!</p>
+</div>
+<div id="gallery-of-polygons" class="section level3 hasAnchor" number="2.0.9">
+<h3><span class="header-section-number">2.0.9</span> Gallery of Polygons<a href="polygons-plot.html#gallery-of-polygons" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Here a collection of the different polygons plot used in different publications and presentations! Please drop us an email with you plot if you have used it! We would love to keep track on its usage over time!</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="tutorial.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": false
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

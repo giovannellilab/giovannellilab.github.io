@@ -1,6 +1,16 @@
 introduction
 design-principles
 credits
+polygons-plot
+polygon-plot-features
+the-inception
+reading-the-polygon-plot
+using-the-polygon-plots-the-shiny-app
+polygons-plot-array
+list-of-future-features
+how-to-cite-the-polygon-plot
+questions-support-and-contribute
+gallery-of-polygons
 tutorial
 literature
 methods
