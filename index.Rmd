@@ -2,17 +2,19 @@
 title: "G.Lab. Book"
 subtitle: "Repository for documentation, tutorial and protocols of the Giovannelli Lab."
 author:
+    - "Gabriella Gallo"
     - "Davide Corso"
     - "Donato Giovannelli"
 date: "Last update: `r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-# bibliography: [book.bib, packages.bib]
+bibliography: [references.bib]
+link-citations: true
+csl: begell-house-chicago-author-date.csl
 # biblio-style: apalike
 # url: your book url like https://bookdown.org/yihui/bookdown
 # cover-image: path to the social sharing image like images/cover.jpg
 description: "Book for documentation, tutorial and protocols of the Giovannelli Lab."
-link-citations: yes
 github-repo: giovannellilab/giovannellilab.github.io
 ---
 
