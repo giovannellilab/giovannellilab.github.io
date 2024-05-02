@@ -1,0 +1,53 @@
+# Molecular Biology
+
+## 16S rRNA 
+This test analyzes a bacterial gene called 16S rRNA – a sort of identity card for microbes – and provides the name of all the bacteria present in the sample and their abundance as a result.\
+It is the most studied gene for microbial phylogeny; it is one of the components of the lower subunit of the bacterial ribosome.\
+The gene, that codes for 16S RNA (component of the small subunit of the bacterial ribosome), is approximately 1,500 bp long. A 2-3% change in nucleotide sequence (30-45 bp) is considered indicative of a different species.\
+The approach of building phylogenetic trees based on 16S sequence alignment is the most widespread and was used for the first time in 1977 by Carl Woese to distinguish the domain of Archaea from that of Bacteria.\
+
+## Shotgun metagenomic sequencing 
+High-throughput sequencing approaches enable genomic analyses ideally of all microbes in a sample, not just those that are amenable to cultivation.\
+Shotgun metagenomic sequencing allows researchers to comprehensively sample all genes from all organisms in a given complex sample. The method allows microbiologists to evaluate bacterial and metabolic diversity and detect the abundance of microbes in various environments.\
+A typical shotgun metagenomics study comprises five steps, after the initial study design:
+
+-   the collection, processing and sequencing of the samples;\
+-   preprocessing of the sequencing reads;\
+-   sequence analysis to profile taxonomic, functional and genomic features of the microbiome;\
+-   statistical and biological post-processing analysis;\
+-   validation.\
+
+## Electrophoresis gel DNA
+Nucleic acid gel electrophoresis is a molecular biology technique that allows for the separation, identification, and purification of DNA and RNA fragments based on size and charge. In this technique, DNA and RNA molecules are separated by applying an electric field that moves the negatively charged nucleic acids through a matrix of:
+
+-   **Agarose**, which is extracted from seaweed, is appropriate for separating DNA fragments ranging in size from a few hundred base pairs to about 20 kb.\
+-   **Polyacrylamide** is preferred for proteins and smaller DNA fragments.\
+In general, the gel matrix acts like a sieve, allowing shorter molecules to move more quickly through the pores of the gel than longer molecules.\
+
+The equipment and supplies for conducting agarose gel electrophoresis in DNA studies include electrophoresis chamber and power supply, gel casting trays, sample combs, electrophoresis buffer, loading buffer, ethidium bromide (EtBr), and transilluminator.\ 
+One method of staining DNA is to expose it to the dye EtBr. EtBr intercalates between the stacked bases of nucleic acids and fluoresces red–orange when illuminated with ultraviolet (UV) light. EtBr should be handled with care for its toxic and mutagenic nature; this is the reason why, it is substituted by other dyes like Sybr Green.\
+Agarose gels are cast by melting the agarose powder dissolved in a specific buffer until a clear, transparent solution is achieved. The melted gel is then poured on a tray and allowed to solidify. Upon solidification, the DNA samples are loaded into the sample wells and gel is run at a voltage and for a time period that will perform optimal separation. One well is reserved for a DNA ladder, a standard reference that contains DNA fragments of known lengths. When an electric field is applied across the gel, DNA migrates toward the anode.\
+A well-defined “line” of DNA on a gel is called a band. Each band contains a large number of DNA fragments of the same size that have all traveled as a group to the same location. By comparing the bands of a sample to the DNA ladder, we can determine its approximate size.\
+For linear fragments of DNA and/or RNA the migration distance is inversely proportional to the size of the molecule (i.e. its length in bases).\
+Single-stranded nucleic acids (like RNA) tend to form complex secondary structures, so their "electrophoretic pathway" is strongly influenced by how they fold. Before being separated by electrophoresis, RNA must be denatured to keep the molecules in linear shape. Commonly used denaturing agents: heat, formaldehyde, formamide, urea.\
+
+## PCR
+Polymerase chain reaction (PCR) is a technique for exponential ampliﬁcation of a fragment of DNA, using a heat-stable DNA polymerase and an automated heat block that is capable of rapid changes of temperature, inducing the enzymatic synthesis of millions of copies of a specific DNA segment.\
+It can be schematized in different steps:
+
+-   **First stage:** The template DNA molecule is initially denatured to two single strands by heating to high temperature (typically 90–95 °C). Two small oligonucleotides that are complementary to sequences on opposite strands of the template molecule are used as primers, allowing the binding for the DNA polymerase.\
+-   **Second stage:** the single-stranded oligonucleotide primers anneal to the denatured template molecule, during a cooling phase.\
+-   **Third stage:** the new strand extends from the annealed primer in a 5'-3' direction by the heat-stable polymerase. This is performed at the optimum temperature for the polymerase (68–72 °C).\
+
+The most commonly used polymerase is the enzyme isolated from Thermus aquaticus (Taq DNA polymerase).\
+After the ﬁrst cycle, each template molecule has been ampliﬁed to two molecules. These in turn are denatured in the next cycle and ampliﬁed to produce four molecules. The four molecules are ampliﬁed to eight in the third cycle, and so on. Each successive cycle effectively doubles the amount of DNA product. The three-stage cycle of denaturation, annealing, and primer extension is repeated 25–40 times in a typical PCR procedure.\
+PCR products are visualized by electrophoresis gel technique followed by staining with ﬂuorescent dyes or by hybridization to labeled oligonucleotide probes.\
+Species specific primers are used. The most used sequence is rRNA that includes the gene for 16S rRNA.\
+The reagents that are used are:
+
+-   **Buffer Tris-HCl:** keeps the pH stable in order to generate an environment suitable for the reaction.\
+-   **Primers:** single-stranded oligonucleotides of approximately 18-25 bases that allow the reaction to be started. The primers are complementary, one at the 3' end and the other at the 5' end of the DNA segment you want to amplify. In particular, the forward primer will bind to the 3'-5' antiparallel strand, delimiting the beginning of the synthesis, while the reverse primer will bind to the other strand, delimiting the end of the synthesis.\
+-   **$MgCl_{2}$:** Cofactor of Taq DNA polymerase that influences primer hybridization.\
+-   **Deoxynucleoside triphosphates (dNTPs-dATP, dTTP, dGTP, dCTP):** they are necessary for the synthesis of new strands.\
+-   **Taq DNA polymerase:** heat-stable polymerase.\
+-   **DNA sample** of interest.\
