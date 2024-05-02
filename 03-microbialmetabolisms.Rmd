@@ -1,0 +1,56 @@
+# Microbial Metabolisms
+
+## Phototrophy
+Phototrophs get energy from sunlight and use carbon from carbon dioxide or organic carbon.\
+
+## Chemotrophy
+Chemotrophs get energy from the oxidation of electron donors in their environments.\
+
+## Autotrophy
+Autotrophs use $CO_{2}$ as a carbon source (inorganic).\
+
+## Heterotrophy
+Heterotrophs carry out the biological oxidation of organic compounds, used a carbon source, to ATP (energy source) and simpler organic or inorganic compounds, which are needed by the bacterial cell for biosynthetic or assimilatory reactions. All heterotrophic bacteria require preformed organic compounds.\
+
+## Photoautotrophy
+Photoautotrophs use sunlight as energy source and $CO_{2}$ as carbon source. They carry out photosynthesis, fixing atmospheric carbon ($CO_{2}$) using light energy.\
+
+## Photoheterotrophy
+Photoheterotrophs get their energy from sunlight and carbon from organic material and not carbon dioxide. Photoheterotrophs use organic compounds from the environment; these compounds include carbohydrates, fatty acids and alcohols.\
+
+## Chemoorganotrophy
+Chemoorganotrophs use organic chemicals as an energy source (electron donors) and organic compounds as carbon source.\
+
+## Chemolithotrophy
+Chemolitotrophs use inorganic chemicals as an energy source (electron donors) and inorganic compounds as carbon source.\
+
+## Fermentation
+
+## Methanogenesis
+There is a group of Archaea, known as methanogens that produce methane in the final step of biomass decomposition.\
+Methanogens don’t use oxygen, they are anaerobic microorganisms, and use oxidized compounds as final electron acceptors.\
+There are 3 methanogenic pathways:
+
+-   **Hydrogenotrophic**: the hydrogen is used to reduce $CO_{2}$ to methane.\
+-   **Methylotrophic**: methyl compounds are reduced to methane in presence or not of hydrogen.\
+-   **Acetoclastic**: acetate is used to produce methane and $CO_{2}$.\
+
+Methanogenesis is the last step of biomass decomposition in which electron acceptors (oxygen, iron, sulphate, nitrate, manganese) are spent completely, and hydrogen, carbon dioxide and organic matter are accumulated.\ 
+Methanogenesis is an ancient metabolic pathway carried out by methanogens, (around 2.5 billions years), before oxygen became abundant in the atmosphere.\
+It represents the biggest biotic sources of methane on Earth.\
+This process has a key role in the global carbon cycle with particular attention on climate changes linked to global warming due to methane.\
+
+Initially, it is hard to isolate methanogens because they are strictly anaerobic microorganisms with specific growth requests. Moreover, it is difficult to create anaerobic conditions.\
+Robert Hungtape is considered as the father of anaerobic microbiology. 
+
+## Sulphate-reduction
+The microorganisms use the sulphate as nutrients, they reduce it to sulphide, and they incorporate it in amino acids containing sulphur.\
+These microorganisms are known as SRB (sulphate-reducers bacteria), anaerobics that use sulphate as final electron acceptors for the degradation of organic compounds with the consequent sulphide production.\
+
+Sulfur is among the most abundant elements on Earth:
+
+-   **$FeS_{2}$:** pyrite (in the rocks, and sediments)\
+-   **$CaSO_{4}$:** gypsum (in the rocks, and sediments)\
+-   **Sulphate:** seawater\
+
+Its oxidation states are from -2 (completely reduced) a +6 (completely oxidized).\
