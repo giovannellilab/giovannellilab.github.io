@@ -1,0 +1,125 @@
+# Biogeochemical Cycles
+
+A biogeochemical cycle is represented by the transition of an element or compound between various compartiments characterised by living and non living forms.\
+Biogeochemical cycles are also defined like the transfer of materials and energy among biotic and abiotic pools and they are dominated by microorganisms. Earth’s biogeochemistry is largely controlled by cycles of oxidation–reduction (redox) reactions. Organisms use redox reactions to derive energy by transferring electrons from a reduced chemical species (electron donor) to an oxidized chemical species (electron acceptor). Energy flows are dissipated as heat through an ecosystem, but chemical elements are recycled.\
+
+The most fundamental elements for life is **water**, which contains hydrogen and oxygen, essential for living organisms.\
+Organisms cannot live on water alone. However, there are some other key elements for life and are part of biogeochemical cycles:
+
+-   **Carbon** is found in all organic macromolecules and is also a key component of fossil fuels.\
+-   **Nitrogen** is necessary for DNA, RNA and proteins and is essential for human agriculture.\
+-   **Phosphorus** is a key component of DNA and RNA and is one of the main ingredients, along with nitrogen, in artificial fertilizers used in agriculture.\
+-   **Sulfur** is critical to the structure of proteins and is released into the atmosphere by the burning of fossil fuels.\
+
+These cycles do not occur in isolation, and the water cycle is a important driver of other biogeochemical cycles.\
+Although each element/compound follows its own path, all of these key chemical nutrients pass through the biosphere, moving between the biotic (living) and abiotic (non-living) worlds and between living organisms.\
+
+## Water cycle
+Water is the only substance that exists naturally on Earth in all three physical states of matter, gas, liquid, and solid, changing from one form to another.
+
+Hydrological cycle is also known as the “water cycle”; it is the normal water recycling system on Earth. Due to solar radiation, water evaporates, generally from the sea, lakes, etc. Water also evaporates from plant leaves through the mechanism of transpiration. As the steam rises in the atmosphere, it is being cooled, condensed, and returned to the land and the sea as precipitation. Precipitation falls on the earth as surface water and shapes the surface, creating thus streams of water that result in lakes and rivers. A part of the water precipitating penetrates the ground and moves downward through the incisions, forming aquifers. Finally, a part of the surface and underground water leads to sea.\
+It is expected that the hydrological cycle will be affected from global warming due to the enhanced greenhouse effect.\
+
+## Carbon cycle
+The carbon cycle is probably the most fundamental biogeochemical process, without which life could not exist. Carbon, in the form of carbon dioxide $(CO_{2})$, represents the starting component in almost all food chains, while at the same time performing a complementary role as Earth’s thermostat, providing an equable climate, suitable for the retention of liquid water on the surface of the planet.\
+The carbon cycle can be "schematized" by considering two interconnected subcycles:
+
+-   **Short-Term Carbon Cycle**\
+-   **Long-Term Carbon Cycle**\
+These subcycles are linked to each other.\
+
+In the Short-Term Carbon Cycle, also called Fast carbon cycle, the main components are plants and phytoplankton.\
+Autotrophs take carbon dioxide from the atmosphere by absorbing it into their cells. Using energy from the sun, both plants and plankton combine carbon dioxide $(CO_{2})$ and water to form sugar $(CH_{2}O)$ and oxygen, in the process of photosynthesis.\
+Heterotrophs break down the plant sugar to get energy, and organic carbon is passed through food chains.\
+To release the energy stored in carbon-containing molecules, such as sugars, autotrophs and heterotrophs break down these molecules in a process called cellular respiration. In this process, the carbon atoms of the molecule are converted into carbon dioxide. Decomposers also release organic compounds and carbon dioxide when they break down dead organisms and waste products.\
+
+In the Long-Term Carbon Cycle, also called “slow cycle”, the movement of carbon from the atmosphere to the lithosphere begins with rain. Atmospheric carbon combines with water to form a carbonic acid that falls to the surface in rain. The acid dissolves rocks — a process called chemical weathering — and releases calcium, magnesium, potassium, or sodium ions. Rivers carry the ions to the ocean.\
+In the ocean, the calcium ions combine with bicarbonate ions to form calcium carbonate. Most of the calcium carbonate is made by shell-building (calcifying) organisms (such as corals) and plankton (like coccolithophores and foraminifera). After the organisms die, they sink to the seafloor. Over time, layers of shells and sediment are cemented together and turn to rock, storing the carbon in stone—limestone and its derivatives (limestone is a rock, made primarily of calcium carbonate. These rock types are often formed from the bodies of marine plants and animals, and their shells and skeletons can be preserved as fossils. Carbon locked up in limestone can be stored for millions—or even hundreds of millions—of years).\
+Only 80% of carbon-containing rock is currently made this way. The remaining 20% contain carbon from living things (organic carbon) that have been embedded in layers of mud. Heat and pressure compress the mud and carbon over millions of years, forming sedimentary rock.\
+On Earth, carbon is stored in the soil as organic carbon resulting from the decomposition of living organisms or as inorganic carbon resulting from weathering of Earth's rocks and minerals. Deeper underground are fossil fuels such as oil, coal and natural gas, which are the remains of organic matter decomposed under anaerobic conditions. Fossil fuels take millions of years to form. When humans burn them, the carbon is released into the atmosphere in the form of carbon dioxide.\
+Another way in which carbon enters the atmosphere is by erupting volcanoes. Carbon-containing sediments on the ocean floor are transported deep into the Earth in a process called subduction, in which one tectonic plate moves beneath another. This process forms carbon dioxide, which can be released into the atmosphere by volcanic eruptions or hydrothermal vents.\
+
+The human activities have a big impact on the carbon cycle.\
+Fossil fuels are considered a non-renewable resource because they are consumed much faster than they can be produced by geological processes.\
+In addition to the combustion of fossil fuels, deforestation also contributes significantly to the increase in $CO_{2}$. Trees and other parts of the forest ecosystem sequester carbon, and much of the carbon is released as $CO_{2}$ if the forest is cut down.\
+Furthermore, while the oceans absorbing excess carbon dioxide might seem good from a greenhouse gas perspective, it may not be good at all from a marine life perspective. As we saw above, $CO_{2}$ dissolved in seawater can react with water molecules to release H+ ions. So, dissolving more $CO_{2}$ into the water causes the water to become more acidic. More acidic water can, in turn, reduce $CO_{3}^{2}$ concentrations and make it more difficult for marine organisms to build and maintain their $CaCO_{3}$ shells. Both rising temperatures and increased acidity can harm marine life.\
+
+## Nitrogen cycle
+Nitrogen is a key component of living organisms. Nitrogen atoms are found in all proteins and DNA.\
+Nitrogen is a common limiting nutrient in nature and agriculture.\
+When fertilizers containing nitrogen and phosphorus are transported in runoff to lakes and rivers, causing the phenomenon of eutrophication.\
+$N_{2}$ gas makes up about 78% of the Earth's atmosphere by volume.\
+In the process of nitrogen fixation, nitrogen enters the living world through bacteria and other single-celled prokaryotes, which convert atmospheric nitrogen $N_{2}$ into biologically usable forms through nitrogenase enzyme complexes. The ammonium produced by nitrogen fixation is either assimilated into biomass or is further respired by aerobic and anaerobic ammonia-oxidizing microbes. Nitrogen-fixing microorganisms capture atmospheric nitrogen and convert it into ammonium and aminoacids.\
+There are some abiotic reactions fixing nitrogen that require high energy input to split the triple bond of $N_{2}$. In the presence of extremely high temperatures, $N_{2}$ molecules dissociate. A fraction of the dissociated nitrogen gets oxidized to form nitric oxide ($NO$) gas:\
+$N_{2}$ + $O_{2}$ + energy → $2NO$\
+The nitrogen can be also fixed in the Haber-Bosch process for fertilizer production.\
+Ammonification may be accomplished either by reduction of dinitrogen (also referred to as ‘nitrogen fixation’), or by dissimilatory nitrite reduction to ammonium (DNRA).\
+Ammonification and nitrification are the primary source for ammonium $(NH_{4}^{+})$.\
+Nitrification is composed of oxidation of ammonia to nitrite (also referred to as ‘nitritation), and of oxidation of nitrite to nitrate (also referred to as ‘nitratation). The process of nitrification involves three cohorts of microorganisms:
+
+-   **ammonia oxidizers** that oxidize ammonia to nitrite (nitritation);\
+-   **nitrite oxidizers** that oxidize nitrite to nitrate (nitratation);\ 
+-   **complete ammonia oxidizers** that oxidize ammonia all the way to nitrate (comammox).\
+
+Denitrification describes the process of anaerobic respiration of nitrite $(NO^{2-})$, nitric oxide (NO), and nitrous oxide $(N_{2}O)$ to $N_{2}$.\
+Anammox, or anaerobic ammonium oxidation, utilizes the pools of $NO_{2}$ and ammonium $(NH_{4}^{+})$ to form $N_{2}$ via the intermediates $NO$ and hydrazine $(N_{2}H_{4})$. Anammox is ecologically beneficial for wastewater treatment as it removes both nitrite and ammonium simultaneously without producing $N_{2}O$, and has been industrially implemented at full scale.\
+
+In general, human activity releases nitrogen into the environment through two main means: the burning of fossil fuels and the use of nitrogen-containing fertilizers (through the Haber-Bosch process, in which $N_{2}$ is reacted with hydrogen, $H_{2}$, at high temperatures) in agriculture. Both processes increase levels of nitrogen-containing compounds in the atmosphere. High levels of atmospheric nitrogen, other than $N_{2}$, are associated with harmful effects, such as the production of acid rain, in the form of nitric acid, HNO3, and with contributions to the greenhouse effect, such as nitrous oxide, $N_[2}O$.\
+Furthermore, when artificial fertilizers containing nitrogen and phosphorus are used in agriculture, excess fertilizer can be washed into lakes, streams and rivers through surface runoff. One of the main effects of fertilizer runoff is the eutrophication of saltwater and freshwater. In this process, nutrient runoff causes excessive growth, or a "bloom", of algae or other microorganisms. Without nutrient runoff, their growth was limited by the availability of nitrogen or phosphorus.\
+Eutrophication can reduce the availability of oxygen in water at night because algae and the microorganisms that feed on them consume large amounts of oxygen in cellular respiration. Moreover, some algae give water an unpleasant taste or odour or produce toxic compounds.\ This can cause the death of other organisms living in the affected ecosystems, such as fish and shrimp, and result in low-oxygen, species-depleted areas called dead zones.\
+
+## Phosphorus cycle
+Phosphorus is an essential nutrient for all life forms. It is a key component of fundamental biochemicals, including genetic material (DNA, RNA), energy transferal molecules (e.g., adenosine triphosphate: ATP), and compounds that provide structural support to organisms in the form of membranes (phospholipids) and bone (the biomineral hydroxyapatite). Photosynthetic organisms at the base of the food web in both terrestrial and aquatic ecosystems require dissolved phosphorus, along with carbon and other essential nutrients, to build their tissues using energy from the sun.\
+Biological productivity is contingent upon the availability of phosphorus to these organisms.\
+The phosphorus cycle is slow. Most phosphorus in nature exists as a phosphate ion $PO_{4}^{3-}$.\
+In nature, phosphorus is often the limiting nutrient and this is especially true for aquatic and freshwater ecosystems.\
+Phosphorus locked up in bedrock, soils, and sediments is not directly available to organisms. Conversion of unavailable forms to bioavailable forms (principally dissolved orthophosphate: $PO_{4}^{3-}$, which can be directly assimilated, occurs through geochemical and biochemical reactions at various stages in the global phosphorus cycle.\
+Production of biomass fueled by phosphorus bioavailability results in the deposition of organic matter in soil and sediments, where it acts as a source of fuel and nutrients to microbial communities. Microbial activity in soils and sediments, in turn, strongly influences the concentration and chemical form of phosphorus incorporated into the geological record.\
+In terrestrial systems, phosphorus resides in three pools: bedrock, soil, and living organisms (biomass). Weathering of continental bedrock is the principal source of phosphorus to the soils that support continental vegetation; atmospheric deposition is relatively unimportant. Phosphorus is weathered from bedrock by dissolution of phosphorus-bearing minerals such as apatite, the most abundant primary phosphorus mineral in crustal rocks. Weathering reactions are driven by exposure of minerals to naturally occurring acids derived mainly from microbial activity. Phosphate liberated to soil solution during weathering is directly available for uptake by terrestrial plants, and is returned to the soil by decay of litterfall.\
+Phosphorus is transferred from the continental to the oceanic reservoir primarily by rivers, deriving from weathered continental rocks and soils.\
+Phosphorus circulates through the environment in three natural cycles. The first of these is the inorganic cycle, which refers to phosphorus in the crust of the Earth.\
+Through millions of years, phosphorus has moved slowly through the inorganic cycle, starting with the rocks which slowly weather to form soil, from which the phosphorus is gradually leached from the land into rivers and onward to the sea, where it eventually forms insoluble calcium phosphate and sinks to the seafloor as sediment. There it remains until it is converted to new, so-called sedimentary rocks as a result of geological pressure. On a timescale of hundreds of millions of years, these sediments are uplifted to form new dry land and the rocks are subject to weathering, completing the global cycle. In addition, some phosphorus can be transferred back from the ocean to the land by fish-eating birds whose droppings have built up sizable deposits of phosphate as guano on Pacific coastal regions and islands, and by ocean currents that convey phosphorus from the seawater to these regions.\
+The global cycle of phosphorus is unique among the cycles of the major biogeochemical elements in having no significant gaseous compounds.\
+The other two cycles are organic ones which move phosphorus through living organisms as part of the food chain. These are a land-based phosphorus cycle which transfers it from soil to plants, to animals, and back to soil again; and a water-based organic cycle which circulates it among the creatures living in rivers, lakes, and seas. It is the amount of phosphorus in these two cycles that governs the biomass of living forms that land and sea can sustain.\
+The ocean water loses phosphorus continually in a steady drizzle of detritus to the bottom, where it builds up in the sediments as insoluble calcium phosphate.\
+Despite the geological remobilization, there is a net annual loss of millions of tons of phosphate a year from the marine biosphere. Thus the ocean sediments are by far the largest stock in the biogeochemical cycles of phosphorus.\
+
+## Sulphur cycle
+The largest sulphur reservoirs on the Earth are iron sulphides (pyrite; $FeS_{2})$ and gypsum $(CaSO_{4})$ in sediments and rocks and sulphate in seawater. Sulphur, which is a necessary element for life, is taken up as sulphate by microorganisms and plants, and subsequently by animals.\
+Sulfur enters the atmosphere from natural sources as hydrogen sulfide $(H_{2}S)$ from active volcanoes and the decay of organic matter in anaerobic environments (swamps, tidal flats), sulfur dioxide $(SO_{2})$ from active volcanoes, and particles of sulfate salts (e.g. ammonium sulfate) from sea spray.\
+Decomposition of dead organisms in the absence of oxygen releases the sulphur again as hydrogen sulphide. The combustion of fossil fuels and emission of volcanic fumes releases sulphur dioxide into the atmosphere, where it reacts with water, thereby forming sulphuric acid and resulting in acid rain.\
+
+## Hydrogen cycle
+
+-   **Serpentination**\
+Serpentinization involves the hydrolysis and transformation of primary ferromagnesian minerals such as olivine and pyroxenes to produce hydrogen-rich fluids and a variety of secondary minerals over a wide range of environmental conditions. In the process of serpentinization, the low-temperature (150–400°C) hydrolysis and transformation of ultramafic rocks produces hydrogen gas $(H_{2})$. The hydrogen gas thus produced reacts with simple oxidized carbon compounds, such as carbon dioxide ($CO_{2}$) and carbon monoxide ($CO$), under reducing conditions to release methane gas $(CH_{4})$ and other organic molecules through Fischer–Tropsch-type synthesis. The gas produced can be used by underground microbes to gain metabolic energy but the size of these reserves and their impact are not yet understood.\
+The continual and elevated production of hydrogen is capable of reducing carbon, thus initiating an inorganic pathway to produce organic compounds, particularly methane.\
+Production of $H_{2}$ and $H_{2}$-dependent $CH_{4}$ in serpentinization systems has received significant interdisciplinary interest, especially with regard to the abiotic synthesis of organic compounds and the origins and maintenance of life in Earth’s lithosphere (the rocky outer part of the Earth) and elsewhere in the universe.\
+Serpentinization is a weathering process in which ultramafic rocks react with water, generating a range of products, including serpentine and other minerals, in addition to $H_{2}$ and low-molecular-weight hydrocarbons that are capable of sustaining microbial life.\
+This process can be defined as a hydrothermal alteration of ultramafic rocks that occurs in a variety of tectonic settings on Earth such as the ocean floor, mid-ocean ridges and subduction zones.\
+
+-   **Photolysis**\
+This process includes using light to break water into hydrogen and oxygen. The biophotolysis includes using sunlight and specialised microorganisms such as green algae to split water and produce oxygen.\
+Direct photolysis receives energy from very energetic photons such as UV lights.\
+It is one of the most important reactions on Earth as it is the source of almost all the molecular oxygen present in the atmosphere.\
+
+-   **Radiolysis**\
+Radiolysis consists in a series of phenomena by which molecules are destabilized by ionizing irradiation particles such as phonons, electrons or heavy ions, leading to new chemical species.\
+Water radiolysis is the decomposition of water molecules by ionizing radiation produced during the decay of radioactive elements. 
+Hydrogen $(H_{2})$ is produced in geological settings by dissociation of water due to radiation from radioactive decay of naturally occurring uranium ($^{238}U, ^{235}U)$, thorium ($^{232}Th$) and potassium ($^{40}K)$.\
+Radiolysis occurs in deep-sea sediments (in underwater basalt where both water and radiation are present) where it provides molecular hydrogen which thus supports the microbial community as an electron donor.\
+Many organisms catabolically utilize $H_{2}$, including methanogens, sulfate-reducers, iron reducers, and nitrate reducers. There is evidence that some of these organisms, specifically sulfate reducers and methanogens, are active in subseafloor basalt. Radiolysis undoubtedly occurs in subseafloor basalt, as both water and radiation are present.\
+
+-   **Magma Degassing**\
+This phenomenon refers to the separation or exsolution of gases and volatile components dissolved in the magma and their dispersion in the atmosphere.\
+This occurs through the nucleation, growth and coalescence of gas bubbles. Degassing occurs both from craters and from soils and/or hydrothermal events. It occurs both during volcanic eruptions and in quiescent phases.\
+
+-   **Fermentation**\
+Fermentative hydrogen production is the fermentative conversion of organic substrate to biohydrogen manifested by a diverse group of bacteria using multienzyme systems involving three steps similar to anaerobic conversion.\
+Dark Fermentation does not require solar energy and everything starts from the oxidation of organic compounds.\
+Photofermentation occurs in the presence of light which is used to break down organic matter, releasing hydrogen.\ 
+
+-   **Thermal Escape**\
+Atmospheric escape is the process by which the atmosphere of a planetary body loses gas into outer space. Since hydrogen is the lightest element, it has a higher average speed than the other elements and, for this reason, it will escape from the atmosphere more easily.\
+
+-   **Dissolution**\
