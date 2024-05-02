@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 Basic Knowledge | G.Lab. Book</title>
+  <meta name="description" content="Book for documentation, tutorial and protocols of the Giovannelli Lab." />
+  <meta name="generator" content="bookdown 0.39 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 Basic Knowledge | G.Lab. Book" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Book for documentation, tutorial and protocols of the Giovannelli Lab." />
+  <meta name="github-repo" content="giovannellilab/giovannellilab.github.io" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 Basic Knowledge | G.Lab. Book" />
+  
+  <meta name="twitter:description" content="Book for documentation, tutorial and protocols of the Giovannelli Lab." />
+  
+
+<meta name="author" content="Davide Corso" />
+<meta name="author" content="Donato Giovannelli" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="polygons-plot.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<div style="text-align:center">
+<li class="toc-logo"><a href="./"><img src="img/glab_logo_notext.png" width="200" height="200"></a></li>
+<li><a href="./"><strong>G.Lab. Book</strong></a></li>
+</div>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#design-principles"><i class="fa fa-check"></i><b>1.1</b> Design principles</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#credits"><i class="fa fa-check"></i><b>1.2</b> Credits</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="basic-knowledge.html"><a href="basic-knowledge.html"><i class="fa fa-check"></i><b>2</b> Basic Knowledge</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="basic-knowledge.html"><a href="basic-knowledge.html#solution"><i class="fa fa-check"></i><b>2.1</b> Solution</a></li>
+<li class="chapter" data-level="2.2" data-path="basic-knowledge.html"><a href="basic-knowledge.html#solubility"><i class="fa fa-check"></i><b>2.2</b> Solubility</a></li>
+<li class="chapter" data-level="2.3" data-path="basic-knowledge.html"><a href="basic-knowledge.html#temperature"><i class="fa fa-check"></i><b>2.3</b> Temperature</a></li>
+<li class="chapter" data-level="2.4" data-path="basic-knowledge.html"><a href="basic-knowledge.html#ph-and-poh---pondus-hydrogenium-and-pondus-oh"><i class="fa fa-check"></i><b>2.4</b> pH and pOH - pondus Hydrogenium and pondus OH</a></li>
+<li class="chapter" data-level="2.5" data-path="basic-knowledge.html"><a href="basic-knowledge.html#mvph---millivolt-ph"><i class="fa fa-check"></i><b>2.5</b> MVpH - MilliVolt pH</a></li>
+<li class="chapter" data-level="2.6" data-path="basic-knowledge.html"><a href="basic-knowledge.html#orp---oxidation-reduction-potential"><i class="fa fa-check"></i><b>2.6</b> ORP - Oxidation Reduction Potential</a></li>
+<li class="chapter" data-level="2.7" data-path="basic-knowledge.html"><a href="basic-knowledge.html#do---dissolved-oxygen"><i class="fa fa-check"></i><b>2.7</b> DO - Dissolved Oxygen</a></li>
+<li class="chapter" data-level="2.8" data-path="basic-knowledge.html"><a href="basic-knowledge.html#conductibility-spc"><i class="fa fa-check"></i><b>2.8</b> Conductibility (spc)</a></li>
+<li class="chapter" data-level="2.9" data-path="basic-knowledge.html"><a href="basic-knowledge.html#tds---total-dissolved-solids"><i class="fa fa-check"></i><b>2.9</b> TDS - Total Dissolved Solids</a></li>
+<li class="chapter" data-level="2.10" data-path="basic-knowledge.html"><a href="basic-knowledge.html#salinity"><i class="fa fa-check"></i><b>2.10</b> Salinity</a></li>
+<li class="chapter" data-level="2.11" data-path="basic-knowledge.html"><a href="basic-knowledge.html#density"><i class="fa fa-check"></i><b>2.11</b> Density</a></li>
+<li class="chapter" data-level="2.12" data-path="basic-knowledge.html"><a href="basic-knowledge.html#alcalinity"><i class="fa fa-check"></i><b>2.12</b> Alcalinity</a></li>
+<li class="chapter" data-level="2.13" data-path="basic-knowledge.html"><a href="basic-knowledge.html#melting-temperature"><i class="fa fa-check"></i><b>2.13</b> Melting Temperature</a></li>
+<li class="chapter" data-level="2.14" data-path="basic-knowledge.html"><a href="basic-knowledge.html#gas-laws"><i class="fa fa-check"></i><b>2.14</b> Gas laws</a></li>
+<li class="chapter" data-level="2.15" data-path="basic-knowledge.html"><a href="basic-knowledge.html#plate-tectonics"><i class="fa fa-check"></i><b>2.15</b> Plate Tectonics</a></li>
+<li class="chapter" data-level="2.16" data-path="basic-knowledge.html"><a href="basic-knowledge.html#subduction-zones"><i class="fa fa-check"></i><b>2.16</b> Subduction zones</a></li>
+<li class="chapter" data-level="2.17" data-path="basic-knowledge.html"><a href="basic-knowledge.html#microbial-growth"><i class="fa fa-check"></i><b>2.17</b> Microbial growth</a></li>
+<li class="chapter" data-level="2.18" data-path="basic-knowledge.html"><a href="basic-knowledge.html#binary-fission"><i class="fa fa-check"></i><b>2.18</b> Binary fission</a></li>
+<li class="chapter" data-level="2.19" data-path="basic-knowledge.html"><a href="basic-knowledge.html#biofilm"><i class="fa fa-check"></i><b>2.19</b> Biofilm</a></li>
+<li class="chapter" data-level="2.20" data-path="basic-knowledge.html"><a href="basic-knowledge.html#absorbance"><i class="fa fa-check"></i><b>2.20</b> Absorbance</a></li>
+<li class="chapter" data-level="2.21" data-path="basic-knowledge.html"><a href="basic-knowledge.html#calibration-curve"><i class="fa fa-check"></i><b>2.21</b> Calibration Curve</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="polygons-plot.html"><a href="polygons-plot.html"><i class="fa fa-check"></i><b>3</b> Polygons Plot</a>
+<ul>
+<li class="chapter" data-level="3.0.1" data-path="polygons-plot.html"><a href="polygons-plot.html#polygon-plot-features"><i class="fa fa-check"></i><b>3.0.1</b> Polygon plot features</a></li>
+<li class="chapter" data-level="3.0.2" data-path="polygons-plot.html"><a href="polygons-plot.html#the-inception"><i class="fa fa-check"></i><b>3.0.2</b> The inception</a></li>
+<li class="chapter" data-level="3.0.3" data-path="polygons-plot.html"><a href="polygons-plot.html#reading-the-polygon-plot"><i class="fa fa-check"></i><b>3.0.3</b> Reading the Polygon plot</a></li>
+<li class="chapter" data-level="3.0.4" data-path="polygons-plot.html"><a href="polygons-plot.html#using-the-polygon-plots-the-shiny-app"><i class="fa fa-check"></i><b>3.0.4</b> Using the Polygon plots: the Shiny app</a></li>
+<li class="chapter" data-level="3.0.5" data-path="polygons-plot.html"><a href="polygons-plot.html#polygons-plot-array"><i class="fa fa-check"></i><b>3.0.5</b> Polygons plot array</a></li>
+<li class="chapter" data-level="3.0.6" data-path="polygons-plot.html"><a href="polygons-plot.html#list-of-future-features"><i class="fa fa-check"></i><b>3.0.6</b> List of future features</a></li>
+<li class="chapter" data-level="3.0.7" data-path="polygons-plot.html"><a href="polygons-plot.html#how-to-cite-the-polygon-plot"><i class="fa fa-check"></i><b>3.0.7</b> How to cite the Polygon plot</a></li>
+<li class="chapter" data-level="3.0.8" data-path="polygons-plot.html"><a href="polygons-plot.html#questions-support-and-contribute"><i class="fa fa-check"></i><b>3.0.8</b> Questions, support and contribute!</a></li>
+<li class="chapter" data-level="3.0.9" data-path="polygons-plot.html"><a href="polygons-plot.html#gallery-of-polygons"><i class="fa fa-check"></i><b>3.0.9</b> Gallery of Polygons</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="contacts.html"><a href="contacts.html"><i class="fa fa-check"></i><b>4</b> Contacts</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">G.Lab. Book</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="basic-knowledge" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">Chapter 2</span> Basic Knowledge<a href="basic-knowledge.html#basic-knowledge" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="solution" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> Solution<a href="basic-knowledge.html#solution" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A solution is a homogeneous mixture composed of a solute, which is the substance dissolved, and solvent, which is the substance that dissolves.<br />
+The mixtures can be separated in different ways:</p>
+<ul>
+<li><strong>Filtration</strong>: is a method used to separate solid components from liquid or gaseous substances.</li>
+<li><strong>Centrifuge</strong>: is a method used to separate solid substances from the liquids, exploiting the centrifuge force. In this way, the solid particles settle on the bottom whereas the liquid substance remains in the upper portion; this liquid phase is called supernatant.</li>
+<li><strong>Decantation</strong>: is a process for separating mixtures by removing a precipitate-free liquid layer or settled solids from a solution, based on gravity. The aim may be to obtain a decanted liquid (particulate-free liquid) or to recover the precipitate.<br />
+</li>
+</ul>
+<p>For the preparation of a solution, some aspects have to be considered. For example, solute solubility has to be known because some problems can occur for the saturation of solution. Moreover, it should be careful that the solute is well dissolved in the solvent. When the solution is clear, it has to be filtered to avoid any kind of microbial contamination: in most cases, the solution is sterilised through filtration using filters 0.22 µm: sometimes, autoclave is used to sterilise a solution depending on the kind of solute present into. Another question is correlated to the use of plastic cylinder or glass ones, depending on the temperature used for dissolving (room temperature or high temperature) or on the requirement for the metal-free solution.<br />
+</p>
+</div>
+<div id="solubility" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> Solubility<a href="basic-knowledge.html#solubility" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The solubility indicates the quantity of a solute dissolved in a solvent.<br />
+The solubility may be expressed by using different unite of measures indicating the concentration of a solution:</p>
+<ul>
+<li><strong>ppm</strong> is the acronym of “parts per millions”, and it can be also expressed in milligrams per Liter (mg/L); it corresponds to 1 µg/mL. This unit of measure indicates how many milligrams of a solute are present in 1 liter of solution.</li>
+<li><strong>ppt</strong> is the acronym of “parts per thousands” - and it can be also expressed in milligrams per 100 mL (mg/100 mL); it corresponds to 1 µg/mL. This unit of measure indicates how many milligrams of a solute are present in 100 milliliters of solution.</li>
+<li><strong>ppb</strong> is the acronym of “parts per billions” - and it can be also expressed in micrograms per Liter (ug/L). This unit of measure indicates how many micrograms of a solute are present in 1 liter of solution.</li>
+<li><strong>Concentration (w/w)</strong>: corresponds to weight of a solute in 100 mg of solution<br />
+</li>
+<li><strong>Concentration (V/V)</strong>: corresponds to volume of a solute in 100 mL of solution<br />
+</li>
+<li><strong>Concentration (w/V)</strong>: corresponds to weight of a solute in 100 mL of solution<br />
+</li>
+<li><strong>Molarity (M = mol/L)</strong>: corresponds to number of moles of solute in 1 L of solution.</li>
+</ul>
+<p>The solubility of most solid substances is affected by the temperature: if the temperature increases, the solubility increases.<br />
+The solubility of gas has a different behaviour: if the temperature increases, the solubility decreases.</p>
+</div>
+<div id="temperature" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> Temperature<a href="basic-knowledge.html#temperature" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Temperature is a physical quantity that is a measure of hotness or coldness of matter or radiation.<br />
+Temperature is measured with a thermometer. The most common scales are the Celsius scale (with the unit °C), the Fahrenheit scale (with the unit °F), and the Kelvin scale (with the unit K).</p>
+<p>Conversion between the temperature scales (add TABLE)</p>
+</div>
+<div id="ph-and-poh---pondus-hydrogenium-and-pondus-oh" class="section level2 hasAnchor" number="2.4">
+<h2><span class="header-section-number">2.4</span> pH and pOH - pondus Hydrogenium and pondus OH<a href="basic-knowledge.html#ph-and-poh---pondus-hydrogenium-and-pondus-oh" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In chemistry, pH is a scale used to specify the acidity or basicity of an aqueous solution.<br />
+The pH scale is logarithmic and inversely indicates the concentration of hydrogen ions in the solution.<br />
+pH = <span class="math inline">\(-log_{10}[H^{+}]\)</span><br />
+The pOH scale is logarithmic and inversely indicates the concentration of hydroxide ions in the solution.<br />
+pOH = <span class="math inline">\(-log_{10}[OH^{-}]\)</span><br />
+At 25°C (77°F), solutions with a pH less than 7 are acidic, while solutions with a pH higher than 7 are basic. Solutions with a pH of 7 at this temperature are neutral (for example pure water, in which there is the same concentration of <span class="math inline">\(H^{+}\)</span> ions as <span class="math inline">\(OH^{-}\)</span> ions).<br />
+</p>
+<p>To calculate the concentration of <span class="math inline">\(H^{+}\)</span> or <span class="math inline">\(OH^{-}\)</span> in a sample with a specific pH/pOH value:<br />
+<span class="math inline">\([H^{+}]\)</span> = <span class="math inline">\(10^{-pH}\)</span><br />
+<span class="math inline">\([OH^{-}]\)</span> = <span class="math inline">\(10^{-pOH}\)</span><br />
+</p>
+<p>The pH is inversely proportional to the temperature of the solution. When the temperature of a solution increases, molecular vibrations in the solution increase causing ionization and the formation of <span class="math inline">\(H^{+}\)</span> ions. More <span class="math inline">\(H^{+}\)</span> ions lead to more acidic behaviour. Due to temperature changes, the pH value of the solution changes. Therefore, pH decreases as temperature increases.<br />
+The pH is measured with a pHmeter. If the pHmeter has the temperature probe, the pH value is calculated considering the probable changes due to temperature. If the pHmeter has not the temperature probe, the real pH value should be calculated with a pH temperature correction calculator.<br />
+The pH value is an important variable, since it can control biological or chemical processes, the availability of nutrients or even the activity of microorganisms.</p>
+</div>
+<div id="mvph---millivolt-ph" class="section level2 hasAnchor" number="2.5">
+<h2><span class="header-section-number">2.5</span> MVpH - MilliVolt pH<a href="basic-knowledge.html#mvph---millivolt-ph" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The pH probe is generally a glass electrode that measures the difference in electrical potential on two sides of a thin glass membrane placed at the end of the electrode; this potential difference is linked to the difference between the concentrations of hydrogen ions at the inside and outside the membrane.<br />
+A standard pH sensor outputs a millivolt (mV) signal, which corresponds to a pH value. Moving one pH unit along the scale in any direction will correspond to a change in voltage of 59 mV.<br />
+- An output of <strong>0 mV</strong> is equal to pH 7.<br />
+- An output, included <strong>between 0 and -414.12 mV</strong> (7 x -59 mV), indicates pH &gt; 7<br />
+- An output, included <strong>between 0 and +414.12 mV</strong> (7 x 59 mV), indicates pH &lt; 7<br />
+</p>
+</div>
+<div id="orp---oxidation-reduction-potential" class="section level2 hasAnchor" number="2.6">
+<h2><span class="header-section-number">2.6</span> ORP - Oxidation Reduction Potential<a href="basic-knowledge.html#orp---oxidation-reduction-potential" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>ORP is a numerical index of the intensity of oxidizing or reducing conditions within a system. Positive values for ORP indicate oxidizing conditions, whereas negative values indicate reducing conditions.<br />
+ORP can also be viewed as a representation of electron availability. Since reducing agents donate electrons, a reducing environment is one in which electrons are relatively available. In contrast, an oxidizing environment is one in which electrons are relatively unavailable.<br />
+Oxidation and reduction are related chemical processes that refer to the exchange of electrons in a reaction.<br />
+</p>
+<ul>
+<li><strong>Oxidation</strong> refers to when a chemical substance loses electrons.</li>
+<li><strong>Reduction</strong> refers to when a chemical substance gains electrons, so reduction is the opposite of oxidation.<br />
+</li>
+</ul>
+<p>Both oxidation and reduction can occur in the same reaction, which is why reactions involving oxidation and reduction are often called redox reactions.<br />
+Chemicals (such as oxygen) that accept electrons from other compounds are called oxidizing agents, while substances (such as methane or hydrogen) that donate electrons are called reducing agents.<br />
+Redox is expressed as electrical potential (voltage). Generally, a reducing environment is indicated by a negative reading, while an oxidizing environment is indicated by a positive reading. The most common unit for expressing redox potential is the millivolt (mV).<br />
+</p>
+</div>
+<div id="do---dissolved-oxygen" class="section level2 hasAnchor" number="2.7">
+<h2><span class="header-section-number">2.7</span> DO - Dissolved Oxygen<a href="basic-knowledge.html#do---dissolved-oxygen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Dissolved oxygen is the quantity of oxygen gas (O2), dissolved in water. 
+In general, natural chemical processes dissolve gases such as oxygen, nitrogen and carbon dioxide in the water until saturation is reached. The amount of oxygen that can be absorbed depends on many factors, such as temperature, salinity and pressure. The greatest consumption of oxygen in water occurs through the respiration of animals, microbes and plants, but also through the decomposition of dead organic matter by microbes and fungi.<br />
+Additionally, dissolved oxygen can decrease when the water body warms. In fact, for the preparation of anaerobic medium, the solutions are placed on a hot plate in order to cause the oxygen leakage, and to create an anaerobic environment.
+Dissolved oxygen is usually reported in milligrams per Liter (mg/L), in parts per million (ppm) or micromoles (umol). The oxygen concentration is also expressed as a percentage of saturation, which is the amount of oxygen present compared to the maximum value (100%) which could be contained in a specific air volume.<br />
+</p>
+</div>
+<div id="conductibility-spc" class="section level2 hasAnchor" number="2.8">
+<h2><span class="header-section-number">2.8</span> Conductibility (spc)<a href="basic-knowledge.html#conductibility-spc" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Electrical conductivity, also called EC value (EC means “electrical conductivity”), is a measure of its ability to conduct electricity. The SI unit of conductivity is Siemens per meter (S/m).<br />
+This parameter depends on the substances dissolved in a solution.<br />
+Conductivity measurements are routinely used in many industrial and environmental applications as a quick, economical, and reliable method of measuring the ionic content in a solution.<br />
+In many cases, conductivity is directly linked to total dissolved solids (TDS).<br />
+</p>
+</div>
+<div id="tds---total-dissolved-solids" class="section level2 hasAnchor" number="2.9">
+<h2><span class="header-section-number">2.9</span> TDS - Total Dissolved Solids<a href="basic-knowledge.html#tds---total-dissolved-solids" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Total dissolved solids (TDS) is a measure of the combined dissolved content of all inorganic and organic substances present in water. Total dissolved solids (TDS) include inorganic salts, primarily calcium, magnesium, potassium, sodium, bicarbonates, chlorides and sulfates, and some small amounts of organic matter that are dissolved in water.<br />
+TDS concentrations are usually in parts per million (ppm).</p>
+</div>
+<div id="salinity" class="section level2 hasAnchor" number="2.10">
+<h2><span class="header-section-number">2.10</span> Salinity<a href="basic-knowledge.html#salinity" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The salinity describes the amount of dissolved salts in a liquid.<br />
+In most cases, sodium chloride (NaCl) represents the largest percentage of dissolved salts.<br />
+Typical units for salt content are g/kg (g salt per kg of solution), %, ppt or even PSU.<br />
+There is a proportionality between the salinity and conductivity. If a salt content increases, the conductivity value increases. For this reason, the salinity values can be calculated, if the conductivity value is known.</p>
+</div>
+<div id="density" class="section level2 hasAnchor" number="2.11">
+<h2><span class="header-section-number">2.11</span> Density<a href="basic-knowledge.html#density" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The density of a substance is the ratio between the mass of the substance and volume (how much space it takes up). Its unit of measure in the International System is kg/m3.</p>
+</div>
+<div id="alcalinity" class="section level2 hasAnchor" number="2.12">
+<h2><span class="header-section-number">2.12</span> Alcalinity<a href="basic-knowledge.html#alcalinity" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Alkalinity is a measure of water’s ability to resist pH changes that lead to acidity, or to neutralize acids and maintain a stable pH. This capacity is usually referred to as the “buffer capacity” of water.<br />
+The presence of some chemical substances, including hydroxides, carbonates and bicarbonates, affects the alkalinity of water. In simple terms, water with high alkalinity is less likely to become more acidic if it is contaminated with acidic water, such as acid rain.<br />
+Alkalinity is measured by a process called titration. An acid of known concentration, called a titrant, is added to the water.The amount of acid used to bring the water up to a specific pH level is determined by the alkalinity of the water. Once the water reaches the pH end point, it changes colour.<br />
+Alkalinity is measured in units of milligrams per liter (mg/L) of calcium carbonate <span class="math inline">\((CaCO_{3})\)</span>. Alkaline water has a pH of 8 or higher. The pH scale is used to measure the alkalinity of water.Water with a pH between 8 and 10 is considered slightly alkaline, while water with a pH above 10 is considered very alkaline. A pH of 7 is neutral, while anything below 7 is considered acidic.</p>
+</div>
+<div id="melting-temperature" class="section level2 hasAnchor" number="2.13">
+<h2><span class="header-section-number">2.13</span> Melting Temperature<a href="basic-knowledge.html#melting-temperature" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>It can refer to:<br />
+</p>
+<ul>
+<li><strong>Melting point</strong>: is the temperature at which a substance changes from a solid to a liquid state</li>
+<li><strong>Melting temperature</strong>: is the temperature at which the DNA double helix dissociates into single strands.</li>
+</ul>
+</div>
+<div id="gas-laws" class="section level2 hasAnchor" number="2.14">
+<h2><span class="header-section-number">2.14</span> Gas laws<a href="basic-knowledge.html#gas-laws" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><span class="math inline">\(Henry’s law\)</span><br />
+The solubility of a gas in a liquid sample is directly proportional to pressure gas on the liquid phase.<br />
+Example: in a carbonated drink, the carbon dioxide (gas) is present and it exercises a pressure in the bottle, higher than atmospheric pressure, which allows it to be soluble in the liquid phase. When the bottle is opened, the carbon dioxide pressure decreases with the consequent decreasing of its solubility. The observed result is the leakage of many bubbles from the liquid phase.</p>
+<p><span class="math inline">\(Boyle’s law\)</span><br />
+At constant temperature, a gas volume is inversely proportional to subjected pressure<br />
+P x V = k</p>
+<p><span class="math inline">\(Charles’ law\)</span><br />
+At constant pressure, a gas volume is directly proportional to its temperature<br />
+V/T = k</p>
+</div>
+<div id="plate-tectonics" class="section level2 hasAnchor" number="2.15">
+<h2><span class="header-section-number">2.15</span> Plate Tectonics<a href="basic-knowledge.html#plate-tectonics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Plate tectonics refers to a particular mode of convection in a planetary mantle, which is made of silicate rocks, and so far it is observed only on Earth. Earth’s surface is divided into a various plates that are moving at different velocities. The interaction between the plate boundaries cause most geological activities, such as earthquakes, volcanic eruption, and mountain building.</p>
+</div>
+<div id="subduction-zones" class="section level2 hasAnchor" number="2.16">
+<h2><span class="header-section-number">2.16</span> Subduction zones<a href="basic-knowledge.html#subduction-zones" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Subductions zones are a dynamic site of mass and energy exchange between the asthenosphere, lithosphere, hydrosphere, atmosphere, and biosphere, with significant implications for the evolution of the Earth’s surface and interior. In subduction zones, lithospheric plates are descending into the mantle, giving rise to earthquakes, volcanic eruptions, and concentrations of economic ores. Subduction’s delivery of crustal materials to the mantle means that it plays a primary role in cycling of terrestrial elements. On a larger scale, subduction drives plate tectonics, as plate movement is chiefly driven by the downward pull of oceanic slabs sinking into the asthenospheric mantle.
+Subduction generates strong thermal and chemical disequilibrium, leading to dehydration and hydration, mineral transformations, and partial melting of crustal and mantle rocks. This results in different types of subduction zone processes such as metamorphism, metasomatism and magmatism. Understanding these three types of geological processes is essential to the geochemical transfer from the subducting crust into the mantle.
+Crustal recycling at convergent plate boundaries has been accepted as the fundamental mechanism for geochemical heterogeneity of the mantle.</p>
+</div>
+<div id="microbial-growth" class="section level2 hasAnchor" number="2.17">
+<h2><span class="header-section-number">2.17</span> Microbial growth<a href="basic-knowledge.html#microbial-growth" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>It is the increase in the number of cells in a population.<br />
+<strong>Growth rate:</strong> indicates the change in the number of cells or cell mass per unit of time.<br />
+The time interval during which two daughter cells are formed from a single cell is called generation. The generation time is therefore the time needed for a population to duplicate and is also called duplication time. Bacteria have different generation times depending on the specific conditions like available nutrients, environmental parameters.<br />
+A complete bacterial growth curve, such as that obtained in a closed container (closed system or batch culture) can be divided into several phases: lag phase, exponential phase, stationary phase and death phase.<br />
+The growth of a bacterial population inoculated into fresh medium usually begins after a more or less long period of time called the lag phase.<br />
+The speed of exponential growth is variable and influenced both by environmental conditions (temperature, soil, atmosphere) and by the genetic characteristics of the microorganism. The exponential growth of a batch culture cannot continue indefinitely, it is self-limiting. Generally the end of this phase is determined by the exhaustion of essential nutrients or by the accumulation of waste products released. In this case the cell population enters the stationary phase. Although there is no net growth (unchanged cell number), many cellular functions, such as energy metabolism and some biosynthetic processes, can continue in this phase. Some bacteria show cryptic growth at this stage, some cells divide, while others die, so the number of cells remains constant. If the incubation continues, the culture enters the death phase where the total cell count may remain constant while the viable count slowly decreases. When death is accompanied by cell lysis, both turbidity and total cell number decrease.<br />
+Every organism grows in a certain pH range, within which it is possible to identify an optimal pH. The intracellular pH must remain close to neutral to prevent the destruction of acid or alkaline-labile cellular macromolecules. Different environmental pH conditions could lead to particular cellular adaptations adopted by bacteria to survive.<br />
+</p>
+</div>
+<div id="binary-fission" class="section level2 hasAnchor" number="2.18">
+<h2><span class="header-section-number">2.18</span> Binary fission<a href="basic-knowledge.html#binary-fission" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The reproduction of bacteria occurs through the division of an individual into two daughter cells (cytokinesis) equal to each other and identical to the progenitor and is defined as binary fission.<br />
+The time it takes for a bacterium to complete a complete growth cycle is variable and depends on various nutritional and genetic factors.<br />
+</p>
+</div>
+<div id="biofilm" class="section level2 hasAnchor" number="2.19">
+<h2><span class="header-section-number">2.19</span> Biofilm<a href="basic-knowledge.html#biofilm" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Biofilms are mainly composed of microbial cells and EPS. EPS can represent 50% to 90% of the total organic carbon of biofilms and can be considered the primary matrix material of biofilms. EPS can vary in chemical and physical properties, but is primarily composed of polysaccharides.<br />
+Biofilm-associated organisms also differ from their planktonic (freely suspended) counterparts in the genes that are transcribed.
+The solid-liquid interface between a surface and an aqueous medium (e.g. water, blood) provides an ideal environment for the attachment and growth of microorganisms.<br />
+The basic structural unit of the biofilm is the microcolony. The proximity of cells within the microcolony (or between microcolonies) provides an ideal environment for the creation of nutrient gradients, gene exchange, and quorum sensing. Because microcolonies can be composed of multiple species, cycling of various nutrients (e.g., nitrogen, sulfur, and carbon) through redox reactions can easily occur in aquatic biofilms and soil.<br />
+Biofilms also provide an ideal niche for the exchange of extrachromosomal DNA (plasmids). Conjugation (the mechanism of plasmid transfer) occurs at a greater rate between cells in biofilms than between planktonic cells.<br />
+</p>
+</div>
+<div id="absorbance" class="section level2 hasAnchor" number="2.20">
+<h2><span class="header-section-number">2.20</span> Absorbance<a href="basic-knowledge.html#absorbance" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="calibration-curve" class="section level2 hasAnchor" number="2.21">
+<h2><span class="header-section-number">2.21</span> Calibration Curve<a href="basic-knowledge.html#calibration-curve" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="polygons-plot.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": false
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
