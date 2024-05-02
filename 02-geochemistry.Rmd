@@ -1,0 +1,58 @@
+# Geochemical Analyses
+
+## Sulphide 
+Sulfide $(S^{2-})$ is a divalent inorganic anion obtained by removal of both protons from hydrogen sulfide which is a gas that has a “rotten egg” smell.\
+Sulfide is often present in environmental samples, produced either biologically by decomposition of organic matter and bacterial reduction of sulfate or inorganically by volcanic degassing.\
+Sulfide is often present in environmental samples, produced biologically by the decomposition of organic matter and bacterial reduction of sulfate or inorganic from volcanic degassing.\
+There are four categories of sulfides in water and sediment samples, operationally defined as follows:
+
+-   **Total sulfide:** includes dissolved $(H_{2}S)$ and HS and acid-volatile metal sulfides present in particulates.
+-   **Dissolved sulfide:** This is what remains after the suspended solids have been removed by flocculation and settling. Flocculation and sedimentation are used to separate dissolved and particulate sulfide since sulfide can be oxidized during filtration. Centrifugation can also be used.
+-   **Acid-volatile sulfide:** Includes amorphous iron monosulfides, including mackinawite (FeS), greigite $(Fe_{3}S_{4})$, and pyrrhotite (FeS), and amorphous monosulfides of other metals. Pyrite, another sulfide mineral, is not included in the acid-volatile sulfides.
+-   **Non-ionized hydrogen sulfide:** it can be calculated from the concentration of dissolved sulfide, the pH of the sample, and the conditional ionization constant of $(H_{2}S)$.\
+
+## Iron 
+Iron exists in two different states:\
+-   **Ferrous $(Fe^{2+})$ or iron (II)**\
+-   **Ferric $(Fe^{3+})$ or iron (III)**\
+Iron can be converted from ferrous iron to ferric iron by the loss of an electron in the oxidation process. Iron has low solubility in water, so it is a limiting factor.
+Ferrous iron $(Fe^{2+})$ oxidizes easily to ferric iron $(Fe^{3+})$ when exposed to air: this is the reason why, in the field sampling, the collected sample must be acidifed by adding a few drops of concentrated $HCl$ or $HNO_{3}$ as soon as possible. In fact, ferrous iron is stable in acidid samples. 
+
+## DOC - Dissolved Organic Carbon 
+Dissolved organic carbon (DOC) is generally defined as organic matter capable of passing through a filter that removes material ranging in size from 0.70 to 0.22 mm.\
+Sample dissolved organic carbon content is defined as the concentration of carbon remaining in a sample after all particulate carbon has been removed by filtration and all inorganic carbon has been removed by acidification and sparging.\
+Prior to analysis, samples are acidified to reduce the pH below 2. At this pH = 2, all inorganic carbon species are converted to CO2 and removed from the sample.
+
+## DIC - Dissolved Inorganic Carbon 
+Dissolved inorganic carbon (DIC) is present in all natural waters. The concentration of DIC varies between 100 and 1000 μM in most systems. DIC is usually the most abundant form of carbon in water.\
+DIC is made up of three main constituents: free carbon dioxide $(CO_{2})$ (a gas), the bicarbonate ion $(HCO_{3}^{-})$ and the carbonate ion $(CO_{3}^{2-})$. Bicarbonate and carbonate are the major buffers in most natural waters and account for the majority of acid neutralizing capacity (ANC; also called alkalinity). Free $(CO^{2})$ is the most dynamic of the DIC constituents and is the dominant acid in most natural waters. The ratio of $(CO_{2})$ to $(HCO_{3}^{-})$ and $(CO_{3}^{2-})$ is the primary control of pH in most natural waters.\
+Carbon is a ubiquitous and important dissolved component of natural waters. Because CO2 is present in the atmosphere and because carbonate minerals are widespread, there is no sample of natural water that is totally free of inorganic carbon species.\
+Aqueous carbon dioxide reacts with water to form carbonic acid which is very unstable and will rapidly dissociate into hydrogen and bicarbonate.\
+Therefore, in seawater, dissolved inorganic carbon is commonly referred to as the collection of bicarbonate, carbonate ions and dissolved carbon dioxide ($CO_{2}$, $H_{2}CO_{3}$, $HCO_{3}^{-}$, $CO_{3}^{2-}$).\
+$CO_{2}$ (aq) + $H_{2}O$ ⇌ $H_{2}CO_{3}$ ⇌ $HCO_{3}^{-}$ + $H^{+}$ ⇌ C$CO_{3}^{2-}$ + $2H^{+}$
+
+Carbon dioxide reacts with water to form carbonic acid:\
+$CO_{2}$ + $H_{2}O$ → $H_{2}CO_{3}$\
+Carbonic acid is a weak acid that dissociates to form its conjugate bases bicarbonate and carbonate:\
+$H_{2}CO_{3}$ → $HCO_{3}^{-}$ + $H^{+}$\
+$HCO_{3}^{-}$ → $CO_{3}^{2-}$ + $H^{+}$\
+
+## EA - Elemental Analysis 
+Elemental analysis (EA) is an analytical technique applied in chemistry to determine the elemental composition of chemical compounds and their composites.\
+Through this method, it can be determined which elements are present and how many percent by mass of each chemical element is contained in the tested substance to establish the empirical formula. Elemental analysis is often named CHNS or CHN analysis since it determines the amount of carbon $(C)$, hydrogen $(H)$, nitrogen $(N)$ and sulfur $(S)$.\
+Elemental analysis can be qualitative (determining which elements are present) and can be quantitative (determining how much of each is present).\
+
+## ICP-ms - Inductively Coupled Plasma - mass spectrometry 
+Inductively coupled plasma mass spectrometry (ICP-MS) is an analytical technique that can be used to measure elements at trace levels in biological fluids.\
+Sample preparation for ICP-MS provides that the biological samples are usually diluted with acids: both liquid samples and solid samples can be subjected to this technique with the only difference that the latter ones have to be digested before.\
+
+## IC - Ion Chromatography 
+Ion chromatography (IC) is a form of liquid chromatography that uses ion exchange resins to separate atomic or molecular ions based on their interaction with the resin.\
+Ion chromatography is applied for the analysis of major cations $(Ca^{2+}, Na^{+}, K^{+}, Mg^{2+}, NH_{4}^{+})$ and anions $(Cl^{-}, Br^{-}, NO_{3}^{-}, NO_{2}^{-}, SO_{4}^{2-}, HPO_{4}^{2-})$ in environmental samples.\
+The results obtained are expressed in ppm, generally.\
+
+## Isotope 
+Isotopic analysis is the identification of the isotopic signature, indicating the abundance of certain stable isotopes of chemical elements within organic and inorganic compounds. It separates isotopes based on small but significant differences in mass.\
+This can be done using an emission spectrometer or a mass spectrometer. With both types of instruments, the sample must be converted to gas before analysis. The resulting isotopic signature of a sample is expressed using a delta (δ) followed by the isotopic number and symbol of the element being measured.\
+
+## POM - Particulate Organic Matter 
