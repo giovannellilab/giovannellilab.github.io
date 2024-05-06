@@ -1,0 +1,35 @@
+---
+bibliography: references.bib
+---
+
+# Microbiology 
+
+## Microbial growth
+It is the increase in the number of cells in a population.\
+**Growth rate:** indicates the change in the number of cells or cell mass per unit of time.\
+The time interval during which two daughter cells are formed from a single cell is called generation. The generation time is therefore the time needed for a population to duplicate and is also called duplication time. Bacteria have different generation times depending on the specific conditions like available nutrients, environmental parameters.\
+A complete bacterial growth curve, such as that obtained in a closed container (closed system or batch culture) can be divided into several phases: lag phase, exponential phase, stationary phase and death phase.\
+The growth of a bacterial population inoculated into fresh medium usually begins after a more or less long period of time called the lag phase.\
+The speed of exponential growth is variable and influenced both by environmental conditions (temperature, soil, atmosphere) and by the genetic characteristics of the microorganism. The exponential growth of a batch culture cannot continue indefinitely, it is self-limiting. Generally the end of this phase is determined by the exhaustion of essential nutrients or by the accumulation of waste products released. In this case the cell population enters the stationary phase. Although there is no net growth (unchanged cell number), many cellular functions, such as energy metabolism and some biosynthetic processes, can continue in this phase. Some bacteria show cryptic growth at this stage, some cells divide, while others die, so the number of cells remains constant. If the incubation continues, the culture enters the death phase where the total cell count may remain constant while the viable count slowly decreases. When death is accompanied by cell lysis, both turbidity and total cell number decrease.\
+Every organism grows in a certain pH range, within which it is possible to identify an optimal pH. The intracellular pH must remain close to neutral to prevent the destruction of acid or alkaline-labile cellular macromolecules. Different environmental pH conditions could lead to particular cellular adaptations adopted by bacteria to survive.\
+
+## Binary fission 
+The reproduction of bacteria occurs through the division of an individual into two daughter cells (cytokinesis) equal to each other and identical to the progenitor and is defined as binary fission.\
+The time it takes for a bacterium to complete a complete growth cycle is variable and depends on various nutritional and genetic factors.\
+
+## Biofilm 
+Biofilms are mainly composed of microbial cells and EPS. EPS can represent 50% to 90% of the total organic carbon of biofilms and can be considered the primary matrix material of biofilms. EPS can vary in chemical and physical properties, but is primarily composed of polysaccharides.\
+Biofilm-associated organisms also differ from their planktonic (freely suspended) counterparts in the genes that are transcribed.
+The solid-liquid interface between a surface and an aqueous medium (e.g. water, blood) provides an ideal environment for the attachment and growth of microorganisms.\
+The basic structural unit of the biofilm is the microcolony. The proximity of cells within the microcolony (or between microcolonies) provides an ideal environment for the creation of nutrient gradients, gene exchange, and quorum sensing. Because microcolonies can be composed of multiple species, cycling of various nutrients (e.g., nitrogen, sulfur, and carbon) through redox reactions can easily occur in aquatic biofilms and soil.\
+Biofilms also provide an ideal niche for the exchange of extrachromosomal DNA (plasmids). Conjugation (the mechanism of plasmid transfer) occurs at a greater rate between cells in biofilms than between planktonic cells.\
+
+## Absorbance
+
+## Calibration curve
+
+## Winogradsky Column
+
+## Dilution 
+
+## Isolation cultures

@@ -1,0 +1,15 @@
+# Statistic
+
+## Mean
+
+## Median
+
+## Standard Deviations
+
+## Variance
+
+## P-Value
+
+## T-Test
+
+## Anova test

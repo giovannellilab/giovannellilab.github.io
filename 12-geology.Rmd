@@ -1,0 +1,11 @@
+# Geology 
+
+## Plate Tectonics
+
+Plate tectonics refers to a particular mode of convection in a planetary mantle, which is made of silicate rocks, and so far it is observed only on Earth. Earth’s surface is divided into a various plates that are moving at different velocities. The interaction between the plate boundaries cause most geological activities, such as earthquakes, volcanic eruption, and mountain building. 
+
+## Subduction zones 
+
+Subductions zones are a dynamic site of mass and energy exchange between the asthenosphere, lithosphere, hydrosphere, atmosphere, and biosphere, with significant implications for the evolution of the Earth’s surface and interior. In subduction zones, lithospheric plates are descending into the mantle, giving rise to earthquakes, volcanic eruptions, and concentrations of economic ores. Subduction’s delivery of crustal materials to the mantle means that it plays a primary role in cycling of terrestrial elements. On a larger scale, subduction drives plate tectonics, as plate movement is chiefly driven by the downward pull of oceanic slabs sinking into the asthenospheric mantle. 
+Subduction generates strong thermal and chemical disequilibrium, leading to dehydration and hydration, mineral transformations, and partial melting of crustal and mantle rocks. This results in different types of subduction zone processes such as metamorphism, metasomatism and magmatism. Understanding these three types of geological processes is essential to the geochemical transfer from the subducting crust into the mantle.
+Crustal recycling at convergent plate boundaries has been accepted as the fundamental mechanism for geochemical heterogeneity of the mantle.

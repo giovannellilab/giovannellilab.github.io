@@ -1,4 +1,4 @@
-# Geochemical Analyses
+# Geochemistry
 
 ## Sulphide 
 Sulfide $(S^{2-})$ is a divalent inorganic anion obtained by removal of both protons from hydrogen sulfide which is a gas that has a “rotten egg” smell.\

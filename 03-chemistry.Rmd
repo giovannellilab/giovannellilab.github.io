@@ -1,8 +1,4 @@
----
-bibliography: references.bib
----
-
-# Basic Knowledge
+# Chemistry
 
 ## Solution
 
@@ -14,7 +10,6 @@ The mixtures can be separated in different ways:
 -   **Decantation**: is a process for separating mixtures by removing a precipitate-free liquid layer or settled solids from a solution, based on gravity. The aim may be to obtain a decanted liquid (particulate-free liquid) or to recover the precipitate.\
 
 For the preparation of a solution, some aspects have to be considered. For example, solute solubility has to be known because some problems can occur for the saturation of solution. Moreover, it should be careful that the solute is well dissolved in the solvent. When the solution is clear, it has to be filtered to avoid any kind of microbial contamination: in most cases, the solution is sterilised through filtration using filters 0.22 µm: sometimes, autoclave is used to sterilise a solution depending on the kind of solute present into. Another question is correlated to the use of plastic cylinder or glass ones, depending on the temperature used for dissolving (room temperature or high temperature) or on the requirement for the metal-free solution.\
-
 
 ## Solubility
 
@@ -43,9 +38,7 @@ Conversion between the temperature scales (add TABLE)
 
 In chemistry, pH is a scale used to specify the acidity or basicity of an aqueous solution.\
 The pH scale is logarithmic and inversely indicates the concentration of hydrogen ions in the solution.\
-
-<p align="center"> $pH = -log_{10}[H^{+}]}$ </p>
-
+pH = $-log_{10}[H^{+}]$\
 The pOH scale is logarithmic and inversely indicates the concentration of hydroxide ions in the solution.\
 pOH = $-log_{10}[OH^{-}]$\
 At 25°C (77°F), solutions with a pH less than 7 are acidic, while solutions with a pH higher than 7 are basic. Solutions with a pH of 7 at this temperature are neutral (for example pure water, in which there is the same concentration of $H^{+}$ ions as $OH^{-}$ ions).\
@@ -57,7 +50,6 @@ $[OH^{-}]$ = $10^{-pOH}$\
 The pH is inversely proportional to the temperature of the solution. When the temperature of a solution increases, molecular vibrations in the solution increase causing ionization and the formation of $H^{+}$ ions. More $H^{+}$ ions lead to more acidic behaviour. Due to temperature changes, the pH value of the solution changes. Therefore, pH decreases as temperature increases.\
 The pH is measured with a pHmeter. If the pHmeter has the temperature probe, the pH value is calculated considering the probable changes due to temperature. If the pHmeter has not the temperature probe, the real pH value should be calculated with a pH temperature correction calculator.\
 The pH value is an important variable, since it can control biological or chemical processes, the availability of nutrients or even the activity of microorganisms.
-
 
 ## MVpH - MilliVolt pH
 
@@ -80,7 +72,6 @@ Both oxidation and reduction can occur in the same reaction, which is why reacti
 Chemicals (such as oxygen) that accept electrons from other compounds are called oxidizing agents, while substances (such as methane or hydrogen) that donate electrons are called reducing agents.\
 Redox is expressed as electrical potential (voltage). Generally, a reducing environment is indicated by a negative reading, while an oxidizing environment is indicated by a positive reading. The most common unit for expressing redox potential is the millivolt (mV).\
 
-
 ## DO - Dissolved Oxygen
 
 Dissolved oxygen is the quantity of oxygen gas (O2), dissolved in water.\ 
@@ -88,14 +79,12 @@ In general, natural chemical processes dissolve gases such as oxygen, nitrogen a
 Additionally, dissolved oxygen can decrease when the water body warms. In fact, for the preparation of anaerobic medium, the solutions are placed on a hot plate in order to cause the oxygen leakage, and to create an anaerobic environment. 
 Dissolved oxygen is usually reported in milligrams per Liter (mg/L), in parts per million (ppm) or micromoles (umol). The oxygen concentration is also expressed as a percentage of saturation, which is the amount of oxygen present compared to the maximum value (100%) which could be contained in a specific air volume.\
 
-
 ## Conductibility (spc)
 
 Electrical conductivity, also called EC value (EC means “electrical conductivity”), is a measure of its ability to conduct electricity. The SI unit of conductivity is Siemens per meter (S/m).\
 This parameter depends on the substances dissolved in a solution.\
 Conductivity measurements are routinely used in many industrial and environmental applications as a quick, economical, and reliable method of measuring the ionic content in a solution.\
 In many cases, conductivity is directly linked to total dissolved solids (TDS).\
-
 
 ## TDS - Total Dissolved Solids
 
@@ -141,36 +130,3 @@ $Charles’ law$\
 At constant pressure, a gas volume is directly proportional to its temperature\
 V/T = k
 
-## Plate Tectonics
-
-Plate tectonics refers to a particular mode of convection in a planetary mantle, which is made of silicate rocks, and so far it is observed only on Earth. Earth’s surface is divided into a various plates that are moving at different velocities. The interaction between the plate boundaries cause most geological activities, such as earthquakes, volcanic eruption, and mountain building. 
-
-## Subduction zones 
-
-Subductions zones are a dynamic site of mass and energy exchange between the asthenosphere, lithosphere, hydrosphere, atmosphere, and biosphere, with significant implications for the evolution of the Earth’s surface and interior. In subduction zones, lithospheric plates are descending into the mantle, giving rise to earthquakes, volcanic eruptions, and concentrations of economic ores. Subduction’s delivery of crustal materials to the mantle means that it plays a primary role in cycling of terrestrial elements. On a larger scale, subduction drives plate tectonics, as plate movement is chiefly driven by the downward pull of oceanic slabs sinking into the asthenospheric mantle. 
-Subduction generates strong thermal and chemical disequilibrium, leading to dehydration and hydration, mineral transformations, and partial melting of crustal and mantle rocks. This results in different types of subduction zone processes such as metamorphism, metasomatism and magmatism. Understanding these three types of geological processes is essential to the geochemical transfer from the subducting crust into the mantle.
-Crustal recycling at convergent plate boundaries has been accepted as the fundamental mechanism for geochemical heterogeneity of the mantle.
-
-## Microbial growth
-It is the increase in the number of cells in a population.\
-**Growth rate:** indicates the change in the number of cells or cell mass per unit of time.\
-The time interval during which two daughter cells are formed from a single cell is called generation. The generation time is therefore the time needed for a population to duplicate and is also called duplication time. Bacteria have different generation times depending on the specific conditions like available nutrients, environmental parameters.\
-A complete bacterial growth curve, such as that obtained in a closed container (closed system or batch culture) can be divided into several phases: lag phase, exponential phase, stationary phase and death phase.\
-The growth of a bacterial population inoculated into fresh medium usually begins after a more or less long period of time called the lag phase.\
-The speed of exponential growth is variable and influenced both by environmental conditions (temperature, soil, atmosphere) and by the genetic characteristics of the microorganism. The exponential growth of a batch culture cannot continue indefinitely, it is self-limiting. Generally the end of this phase is determined by the exhaustion of essential nutrients or by the accumulation of waste products released. In this case the cell population enters the stationary phase. Although there is no net growth (unchanged cell number), many cellular functions, such as energy metabolism and some biosynthetic processes, can continue in this phase. Some bacteria show cryptic growth at this stage, some cells divide, while others die, so the number of cells remains constant. If the incubation continues, the culture enters the death phase where the total cell count may remain constant while the viable count slowly decreases. When death is accompanied by cell lysis, both turbidity and total cell number decrease.\
-Every organism grows in a certain pH range, within which it is possible to identify an optimal pH. The intracellular pH must remain close to neutral to prevent the destruction of acid or alkaline-labile cellular macromolecules. Different environmental pH conditions could lead to particular cellular adaptations adopted by bacteria to survive.\
-
-## Binary fission 
-The reproduction of bacteria occurs through the division of an individual into two daughter cells (cytokinesis) equal to each other and identical to the progenitor and is defined as binary fission.\
-The time it takes for a bacterium to complete a complete growth cycle is variable and depends on various nutritional and genetic factors.\
-
-## Biofilm 
-Biofilms are mainly composed of microbial cells and EPS. EPS can represent 50% to 90% of the total organic carbon of biofilms and can be considered the primary matrix material of biofilms. EPS can vary in chemical and physical properties, but is primarily composed of polysaccharides.\
-Biofilm-associated organisms also differ from their planktonic (freely suspended) counterparts in the genes that are transcribed.
-The solid-liquid interface between a surface and an aqueous medium (e.g. water, blood) provides an ideal environment for the attachment and growth of microorganisms.\
-The basic structural unit of the biofilm is the microcolony. The proximity of cells within the microcolony (or between microcolonies) provides an ideal environment for the creation of nutrient gradients, gene exchange, and quorum sensing. Because microcolonies can be composed of multiple species, cycling of various nutrients (e.g., nitrogen, sulfur, and carbon) through redox reactions can easily occur in aquatic biofilms and soil.\
-Biofilms also provide an ideal niche for the exchange of extrachromosomal DNA (plasmids). Conjugation (the mechanism of plasmid transfer) occurs at a greater rate between cells in biofilms than between planktonic cells.\
-
-## Absorbance
-
-## Calibration Curve

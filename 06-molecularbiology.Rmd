@@ -1,21 +1,23 @@
 # Molecular Biology
 
-## 16S rRNA 
-This test analyzes a bacterial gene called 16S rRNA – a sort of identity card for microbes – and provides the name of all the bacteria present in the sample and their abundance as a result.\
-It is the most studied gene for microbial phylogeny; it is one of the components of the lower subunit of the bacterial ribosome.\
-The gene, that codes for 16S RNA (component of the small subunit of the bacterial ribosome), is approximately 1,500 bp long. A 2-3% change in nucleotide sequence (30-45 bp) is considered indicative of a different species.\
-The approach of building phylogenetic trees based on 16S sequence alignment is the most widespread and was used for the first time in 1977 by Carl Woese to distinguish the domain of Archaea from that of Bacteria.\
+## DNA extraction protocol
+Objectives: 
 
-## Shotgun metagenomic sequencing 
-High-throughput sequencing approaches enable genomic analyses ideally of all microbes in a sample, not just those that are amenable to cultivation.\
-Shotgun metagenomic sequencing allows researchers to comprehensively sample all genes from all organisms in a given complex sample. The method allows microbiologists to evaluate bacterial and metabolic diversity and detect the abundance of microbes in various environments.\
-A typical shotgun metagenomics study comprises five steps, after the initial study design:
-
--   the collection, processing and sequencing of the samples;\
--   preprocessing of the sequencing reads;\
--   sequence analysis to profile taxonomic, functional and genomic features of the microbiome;\
--   statistical and biological post-processing analysis;\
--   validation.\
+Components and their functions: 
+1) NaCl
+2) EDTA
+3) Tris-HCl
+4) CTAB
+5) PBS
+6) Lysozime
+7) Proteinase K
+8) SDS
+9) Phenol
+10) Chloroform
+11) Isoamyl-alcohol
+12) Isopropanol (2-propanol)
+13) Sodium Acetate
+14) Ethanol
 
 ## Electrophoresis gel DNA
 Nucleic acid gel electrophoresis is a molecular biology technique that allows for the separation, identification, and purification of DNA and RNA fragments based on size and charge. In this technique, DNA and RNA molecules are separated by applying an electric field that moves the negatively charged nucleic acids through a matrix of:
@@ -51,3 +53,9 @@ The reagents that are used are:
 -   **Deoxynucleoside triphosphates (dNTPs-dATP, dTTP, dGTP, dCTP):** they are necessary for the synthesis of new strands.\
 -   **Taq DNA polymerase:** heat-stable polymerase.\
 -   **DNA sample** of interest.\
+
+## Nanodrop 
+
+## Qubit
+
+## Protein extraction
