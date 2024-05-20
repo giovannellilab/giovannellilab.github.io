@@ -30,7 +30,7 @@ The solubility of gas has a different behaviour: if the temperature increases, t
 ## Temperature
 
 Temperature is a physical quantity that is a measure of hotness or coldness of matter or radiation.\
-Temperature is measured with a thermometer. The most common scales are the Celsius scale (with the unit °C), the Fahrenheit scale (with the unit °F), and the Kelvin scale (with the unit K).
+Temperature is measured with a thermometer. The most common scales are the Celsius scale (with the unit $°C$), the Fahrenheit scale (with the unit °F), and the Kelvin scale (with the unit $K$).
 
 Conversion between the temperature scales (add TABLE)
 
@@ -44,8 +44,8 @@ The pOH scale is logarithmic and inversely indicates the concentration of hydrox
 At 25°C (77°F), solutions with a pH less than 7 are acidic, while solutions with a pH higher than 7 are basic. Solutions with a pH of 7 at this temperature are neutral (for example pure water, in which there is the same concentration of $H^{+}$ ions as $OH^{-}$ ions).\
 
 To calculate the concentration of $H^{+}$ or $OH^{-}$ in a sample with a specific pH/pOH value:\
-$[H^{+}]$ = $10^{-pH}$\
-$[OH^{-}]$ = $10^{-pOH}$\
+<p align="center"> $[H^{+}]$ = $10^{-pH}$ </p>\
+<p align="center"> $[OH^{-}]$ = $10^{-pOH}$ </p>\
 
 The pH is inversely proportional to the temperature of the solution. When the temperature of a solution increases, molecular vibrations in the solution increase causing ionization and the formation of $H^{+}$ ions. More $H^{+}$ ions lead to more acidic behaviour. Due to temperature changes, the pH value of the solution changes. Therefore, pH decreases as temperature increases.\
 The pH is measured with a pHmeter. If the pHmeter has the temperature probe, the pH value is calculated considering the probable changes due to temperature. If the pHmeter has not the temperature probe, the real pH value should be calculated with a pH temperature correction calculator.\
@@ -55,9 +55,9 @@ The pH value is an important variable, since it can control biological or chemic
 
 The pH probe is generally a glass electrode that measures the difference in electrical potential on two sides of a thin glass membrane placed at the end of the electrode; this potential difference is linked to the difference between the concentrations of hydrogen ions at the inside and outside the membrane.\
 A standard pH sensor outputs a millivolt (mV) signal, which corresponds to a pH value. Moving one pH unit along the scale in any direction will correspond to a change in voltage of 59 mV.\
--   An output of **0 mV** is equal to pH 7.\
--   An output, included **between 0 and -414.12 mV** (7 x -59 mV), indicates pH \> 7\
--   An output, included **between 0 and +414.12 mV** (7 x 59 mV), indicates pH \< 7\
+-   An output of **0 mV** is equal to $pH = 7$\
+-   An output, included **between 0 and -414.12 mV** (7 x -59 mV), indicates $pH > 7$\
+-   An output, included **between 0 and +414.12 mV** (7 x 59 mV), indicates $pH < 7$\
 
 ## ORP - Oxidation Reduction Potential
 
@@ -74,14 +74,14 @@ Redox is expressed as electrical potential (voltage). Generally, a reducing envi
 
 ## DO - Dissolved Oxygen
 
-Dissolved oxygen is the quantity of oxygen gas (O2), dissolved in water.\ 
+Dissolved oxygen is the quantity of oxygen gas ($O_{2}$), dissolved in water.\ 
 In general, natural chemical processes dissolve gases such as oxygen, nitrogen and carbon dioxide in the water until saturation is reached. The amount of oxygen that can be absorbed depends on many factors, such as temperature, salinity and pressure. The greatest consumption of oxygen in water occurs through the respiration of animals, microbes and plants, but also through the decomposition of dead organic matter by microbes and fungi.\
 Additionally, dissolved oxygen can decrease when the water body warms. In fact, for the preparation of anaerobic medium, the solutions are placed on a hot plate in order to cause the oxygen leakage, and to create an anaerobic environment. 
-Dissolved oxygen is usually reported in milligrams per Liter (mg/L), in parts per million (ppm) or micromoles (umol). The oxygen concentration is also expressed as a percentage of saturation, which is the amount of oxygen present compared to the maximum value (100%) which could be contained in a specific air volume.\
+Dissolved oxygen is usually reported in milligrams per Liter ($mg/L$), in parts per million ($ppm$) or micromoles ($μmol$). The oxygen concentration is also expressed as a percentage of saturation, which is the amount of oxygen present compared to the maximum value (100%) which could be contained in a specific air volume.\
 
 ## Conductibility (spc)
 
-Electrical conductivity, also called EC value (EC means “electrical conductivity”), is a measure of its ability to conduct electricity. The SI unit of conductivity is Siemens per meter (S/m).\
+Electrical conductivity, also called EC value (EC means “electrical conductivity”), is a measure of its ability to conduct electricity. The SI unit of conductivity is Siemens per meter ($S/m$).\
 This parameter depends on the substances dissolved in a solution.\
 Conductivity measurements are routinely used in many industrial and environmental applications as a quick, economical, and reliable method of measuring the ionic content in a solution.\
 In many cases, conductivity is directly linked to total dissolved solids (TDS).\
@@ -89,18 +89,18 @@ In many cases, conductivity is directly linked to total dissolved solids (TDS).\
 ## TDS - Total Dissolved Solids
 
 Total dissolved solids (TDS) is a measure of the combined dissolved content of all inorganic and organic substances present in water. Total dissolved solids (TDS) include inorganic salts, primarily calcium, magnesium, potassium, sodium, bicarbonates, chlorides and sulfates, and some small amounts of organic matter that are dissolved in water.\
-TDS concentrations are usually in parts per million (ppm).
+TDS concentrations are usually in parts per million ($ppm$).
 
 ## Salinity
 
 The salinity describes the amount of dissolved salts in a liquid.\
-In most cases, sodium chloride (NaCl) represents the largest percentage of dissolved salts.\
-Typical units for salt content are g/kg (g salt per kg of solution), %, ppt or even PSU.\
+In most cases, sodium chloride ($NaCl$) represents the largest percentage of dissolved salts.\
+Typical units for salt content are $g/kg$ (g salt per kg of solution), $%$, $ppt$ or even $PSU$.\
 There is a proportionality between the salinity and conductivity. If a salt content increases, the conductivity value increases. For this reason, the salinity values can be calculated, if the conductivity value is known.
 
 ## Density
 
-The density of a substance is the ratio between the mass of the substance and volume (how much space it takes up). Its unit of measure in the International System is kg/m3.
+The density of a substance is the ratio between the mass of the substance and volume (how much space it takes up). Its unit of measure in the International System is $kg/m3$.
 
 ## Alkalinity
 
@@ -124,9 +124,9 @@ Example: in a carbonated drink, the carbon dioxide (gas) is present and it exerc
 
 $Boyle’s law$\
 At constant temperature, a gas volume is inversely proportional to subjected pressure\
-P x V = k
+<p align="center"> $P x V = k$ </p>
 
 $Charles’ law$\
 At constant pressure, a gas volume is directly proportional to its temperature\
-V/T = k
+<p align="center"> $\frac{V}{T} = k$ </p>
 

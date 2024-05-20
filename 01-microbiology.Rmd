@@ -5,9 +5,11 @@ bibliography: references.bib
 # Microbiology 
 
 ## Microbial growth
-It is the increase in the number of cells in a population.\
+It is the increase in the number of microbial cells in a population.\
+
 **Growth rate:** indicates the change in the number of cells or cell mass per unit of time.\
-The time interval during which two daughter cells are formed from a single cell is called generation. The generation time is therefore the time needed for a population to duplicate and is also called duplication time. Bacteria have different generation times depending on the specific conditions like available nutrients, environmental parameters.\
+
+The time interval during which two daughter cells are formed from a single cell is called **generation**. The generation time is therefore the time needed for a population to duplicate and is also called duplication time. Bacteria have different generation times depending on the specific conditions like available nutrients, environmental parameters.\
 A complete bacterial growth curve, such as that obtained in a closed container (closed system or batch culture) can be divided into several phases: lag phase, exponential phase, stationary phase and death phase.\
 The growth of a bacterial population inoculated into fresh medium usually begins after a more or less long period of time called the lag phase.\
 The speed of exponential growth is variable and influenced both by environmental conditions (temperature, soil, atmosphere) and by the genetic characteristics of the microorganism. The exponential growth of a batch culture cannot continue indefinitely, it is self-limiting. Generally the end of this phase is determined by the exhaustion of essential nutrients or by the accumulation of waste products released. In this case the cell population enters the stationary phase. Although there is no net growth (unchanged cell number), many cellular functions, such as energy metabolism and some biosynthetic processes, can continue in this phase. Some bacteria show cryptic growth at this stage, some cells divide, while others die, so the number of cells remains constant. If the incubation continues, the culture enters the death phase where the total cell count may remain constant while the viable count slowly decreases. When death is accompanied by cell lysis, both turbidity and total cell number decrease.\
