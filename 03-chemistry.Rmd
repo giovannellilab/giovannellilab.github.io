@@ -37,10 +37,10 @@ Conversion between the temperature scales (add TABLE)
 ## pH and pOH - pondus Hydrogenium and pondus OH
 
 In chemistry, pH is a scale used to specify the acidity or basicity of an aqueous solution.\
-The pH scale is logarithmic and inversely indicates the concentration of hydrogen ions in the solution.\
-pH = $-log_{10}[H^{+}]$\
-The pOH scale is logarithmic and inversely indicates the concentration of hydroxide ions in the solution.\
-pOH = $-log_{10}[OH^{-}]$\
+The pH scale is logarithmic and inversely indicates the concentration of hydrogen ions in the solution.
+<p align="center"> $pH = -log_{10}[H^{+}]$ </p>
+The pOH scale is logarithmic and inversely indicates the concentration of hydroxide ions in the solution.
+<p align="center"> $pOH = -log_{10}[OH^{-}]$ </p>
 At 25°C (77°F), solutions with a pH less than 7 are acidic, while solutions with a pH higher than 7 are basic. Solutions with a pH of 7 at this temperature are neutral (for example pure water, in which there is the same concentration of $H^{+}$ ions as $OH^{-}$ ions).\
 
 To calculate the concentration of $H^{+}$ or $OH^{-}$ in a sample with a specific pH/pOH value:\
@@ -102,7 +102,7 @@ There is a proportionality between the salinity and conductivity. If a salt cont
 
 The density of a substance is the ratio between the mass of the substance and volume (how much space it takes up). Its unit of measure in the International System is kg/m3.
 
-## Alcalinity
+## Alkalinity
 
 Alkalinity is a measure of water's ability to resist pH changes that lead to acidity, or to neutralize acids and maintain a stable pH. This capacity is usually referred to as the "buffer capacity" of water.\
 The presence of some chemical substances, including hydroxides, carbonates and bicarbonates, affects the alkalinity of water. In simple terms, water with high alkalinity is less likely to become more acidic if it is contaminated with acidic water, such as acid rain.\
