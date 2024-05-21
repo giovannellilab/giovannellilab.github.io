@@ -34,7 +34,7 @@ conductibility-spc
 tds---total-dissolved-solids
 salinity
 density
-alcalinity
+alkalinity
 melting-temperature
 gas-laws
 geochemistry
@@ -83,7 +83,7 @@ powersoil-kit-qiagen-dna-extraction
 geochemistry-protocols
 sulphide-1
 ferrous-iron
-alkalinity
+alkalinity-1
 silica
 bioinformatic
 s-rrna-analysis
@@ -97,6 +97,8 @@ variance
 p-value
 t-test
 anova-test
+ggplot2
+geompoint
 geology
 plate-tectonics
 subduction-zones

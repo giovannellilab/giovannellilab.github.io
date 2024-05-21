@@ -123,7 +123,7 @@
 <li class="chapter" data-level="4.9" data-path="chemistry.html"><a href="chemistry.html#tds---total-dissolved-solids"><i class="fa fa-check"></i><b>4.9</b> TDS - Total Dissolved Solids</a></li>
 <li class="chapter" data-level="4.10" data-path="chemistry.html"><a href="chemistry.html#salinity"><i class="fa fa-check"></i><b>4.10</b> Salinity</a></li>
 <li class="chapter" data-level="4.11" data-path="chemistry.html"><a href="chemistry.html#density"><i class="fa fa-check"></i><b>4.11</b> Density</a></li>
-<li class="chapter" data-level="4.12" data-path="chemistry.html"><a href="chemistry.html#alcalinity"><i class="fa fa-check"></i><b>4.12</b> Alcalinity</a></li>
+<li class="chapter" data-level="4.12" data-path="chemistry.html"><a href="chemistry.html#alkalinity"><i class="fa fa-check"></i><b>4.12</b> Alkalinity</a></li>
 <li class="chapter" data-level="4.13" data-path="chemistry.html"><a href="chemistry.html#melting-temperature"><i class="fa fa-check"></i><b>4.13</b> Melting Temperature</a></li>
 <li class="chapter" data-level="4.14" data-path="chemistry.html"><a href="chemistry.html#gas-laws"><i class="fa fa-check"></i><b>4.14</b> Gas laws</a></li>
 </ul></li>
@@ -185,7 +185,7 @@
 <ul>
 <li class="chapter" data-level="9.2.1" data-path="protocols.html"><a href="protocols.html#sulphide-1"><i class="fa fa-check"></i><b>9.2.1</b> Sulphide</a></li>
 <li class="chapter" data-level="9.2.2" data-path="protocols.html"><a href="protocols.html#ferrous-iron"><i class="fa fa-check"></i><b>9.2.2</b> Ferrous Iron</a></li>
-<li class="chapter" data-level="9.2.3" data-path="protocols.html"><a href="protocols.html#alkalinity"><i class="fa fa-check"></i><b>9.2.3</b> Alkalinity</a></li>
+<li class="chapter" data-level="9.2.3" data-path="protocols.html"><a href="protocols.html#alkalinity-1"><i class="fa fa-check"></i><b>9.2.3</b> Alkalinity</a></li>
 <li class="chapter" data-level="9.2.4" data-path="protocols.html"><a href="protocols.html#silica"><i class="fa fa-check"></i><b>9.2.4</b> Silica</a></li>
 </ul></li>
 </ul></li>
@@ -204,6 +204,10 @@
 <li class="chapter" data-level="11.5" data-path="statistic.html"><a href="statistic.html#p-value"><i class="fa fa-check"></i><b>11.5</b> P-Value</a></li>
 <li class="chapter" data-level="11.6" data-path="statistic.html"><a href="statistic.html#t-test"><i class="fa fa-check"></i><b>11.6</b> T-Test</a></li>
 <li class="chapter" data-level="11.7" data-path="statistic.html"><a href="statistic.html#anova-test"><i class="fa fa-check"></i><b>11.7</b> Anova test</a></li>
+<li class="chapter" data-level="11.8" data-path="statistic.html"><a href="statistic.html#ggplot2"><i class="fa fa-check"></i><b>11.8</b> GGplot2</a>
+<ul>
+<li class="chapter" data-level="11.8.1" data-path="statistic.html"><a href="statistic.html#geompoint"><i class="fa fa-check"></i><b>11.8.1</b> geompoint</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="12" data-path="geology.html"><a href="geology.html"><i class="fa fa-check"></i><b>12</b> Geology</a>
 <ul>
@@ -271,21 +275,35 @@ Ferrous iron <span class="math inline">\((Fe^{2+})\)</span> oxidizes easily to f
 <h2><span class="header-section-number">5.3</span> DOC - Dissolved Organic Carbon<a href="geochemistry.html#doc---dissolved-organic-carbon" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Dissolved organic carbon (DOC) is generally defined as organic matter capable of passing through a filter that removes material ranging in size from 0.70 to 0.22 mm.<br />
 Sample dissolved organic carbon content is defined as the concentration of carbon remaining in a sample after all particulate carbon has been removed by filtration and all inorganic carbon has been removed by acidification and sparging.<br />
-Prior to analysis, samples are acidified to reduce the pH below 2. At this pH = 2, all inorganic carbon species are converted to CO2 and removed from the sample.</p>
+Prior to analysis, samples are acidified to reduce the pH below 2. At this <span class="math inline">\(pH = 2\)</span>, all inorganic carbon species are converted to <span class="math inline">\(CO_{2}\)</span> and removed from the sample.</p>
 </div>
 <div id="dic---dissolved-inorganic-carbon" class="section level2 hasAnchor" number="5.4">
 <h2><span class="header-section-number">5.4</span> DIC - Dissolved Inorganic Carbon<a href="geochemistry.html#dic---dissolved-inorganic-carbon" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Dissolved inorganic carbon (DIC) is present in all natural waters. The concentration of DIC varies between 100 and 1000 μM in most systems. DIC is usually the most abundant form of carbon in water.<br />
+Dissolved inorganic carbon (DIC) is present in all natural waters. The concentration of DIC varies between 100 and 1000 μM in most systems. DIC is usually the most abundant form of carbon in water.<br />
 DIC is made up of three main constituents: free carbon dioxide <span class="math inline">\((CO_{2})\)</span> (a gas), the bicarbonate ion <span class="math inline">\((HCO_{3}^{-})\)</span> and the carbonate ion <span class="math inline">\((CO_{3}^{2-})\)</span>. Bicarbonate and carbonate are the major buffers in most natural waters and account for the majority of acid neutralizing capacity (ANC; also called alkalinity). Free <span class="math inline">\((CO^{2})\)</span> is the most dynamic of the DIC constituents and is the dominant acid in most natural waters. The ratio of <span class="math inline">\((CO_{2})\)</span> to <span class="math inline">\((HCO_{3}^{-})\)</span> and <span class="math inline">\((CO_{3}^{2-})\)</span> is the primary control of pH in most natural waters.<br />
 Carbon is a ubiquitous and important dissolved component of natural waters. Because CO2 is present in the atmosphere and because carbonate minerals are widespread, there is no sample of natural water that is totally free of inorganic carbon species.<br />
 Aqueous carbon dioxide reacts with water to form carbonic acid which is very unstable and will rapidly dissociate into hydrogen and bicarbonate.<br />
 Therefore, in seawater, dissolved inorganic carbon is commonly referred to as the collection of bicarbonate, carbonate ions and dissolved carbon dioxide (<span class="math inline">\(CO_{2}\)</span>, <span class="math inline">\(H_{2}CO_{3}\)</span>, <span class="math inline">\(HCO_{3}^{-}\)</span>, <span class="math inline">\(CO_{3}^{2-}\)</span>).<br />
-<span class="math inline">\(CO_{2}\)</span> (aq) + <span class="math inline">\(H_{2}O\)</span> ⇌ <span class="math inline">\(H_{2}CO_{3}\)</span> ⇌ <span class="math inline">\(HCO_{3}^{-}\)</span> + <span class="math inline">\(H^{+}\)</span> ⇌ C<span class="math inline">\(CO_{3}^{2-}\)</span> + <span class="math inline">\(2H^{+}\)</span></p>
-<p>Carbon dioxide reacts with water to form carbonic acid:<br />
-<span class="math inline">\(CO_{2}\)</span> + <span class="math inline">\(H_{2}O\)</span> → <span class="math inline">\(H_{2}CO_{3}\)</span><br />
+
+<p align="center">
+<p><span class="math inline">\(CO_{2}\)</span> (aq) + <span class="math inline">\(H_{2}O\)</span> ⇌ <span class="math inline">\(H_{2}CO_{3}\)</span> ⇌ <span class="math inline">\(HCO_{3}^{-}\)</span> + <span class="math inline">\(H^{+}\)</span> ⇌ C<span class="math inline">\(CO_{3}^{2-}\)</span> + <span class="math inline">\(2H^{+}\)</span></p>
+Carbon dioxide reacts with water to form carbonic acid:<br />
+
+<p align="center">
+<span class="math inline">\(CO_{2}\)</span> + <span class="math inline">\(H_{2}O\)</span> → <span class="math inline">\(H_{2}CO_{3}\)</span>
+</p>
+<br />
 Carbonic acid is a weak acid that dissociates to form its conjugate bases bicarbonate and carbonate:<br />
-<span class="math inline">\(H_{2}CO_{3}\)</span> → <span class="math inline">\(HCO_{3}^{-}\)</span> + <span class="math inline">\(H^{+}\)</span><br />
-<span class="math inline">\(HCO_{3}^{-}\)</span> → <span class="math inline">\(CO_{3}^{2-}\)</span> + <span class="math inline">\(H^{+}\)</span><br />
+
+<p align="center">
+<span class="math inline">\(H_{2}CO_{3}\)</span> → <span class="math inline">\(HCO_{3}^{-}\)</span> + <span class="math inline">\(H^{+}\)</span>
+</p>
+<br />
+
+<p align="center">
+<span class="math inline">\(HCO_{3}^{-}\)</span> → <span class="math inline">\(CO_{3}^{2-}\)</span> + <span class="math inline">\(H^{+}\)</span>
+</p>
+<p><br />
 </p>
 </div>
 <div id="ea---elemental-analysis" class="section level2 hasAnchor" number="5.5">
@@ -305,7 +323,7 @@ Sample preparation for ICP-MS provides that the biological samples are usually d
 <h2><span class="header-section-number">5.7</span> IC - Ion Chromatography<a href="geochemistry.html#ic---ion-chromatography" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Ion chromatography (IC) is a form of liquid chromatography that uses ion exchange resins to separate atomic or molecular ions based on their interaction with the resin.<br />
 Ion chromatography is applied for the analysis of major cations <span class="math inline">\((Ca^{2+}, Na^{+}, K^{+}, Mg^{2+}, NH_{4}^{+})\)</span> and anions <span class="math inline">\((Cl^{-}, Br^{-}, NO_{3}^{-}, NO_{2}^{-}, SO_{4}^{2-}, HPO_{4}^{2-})\)</span> in environmental samples.<br />
-The results obtained are expressed in ppm, generally.<br />
+The results obtained are expressed in <span class="math inline">\(ppm\)</span>, generally.<br />
 </p>
 </div>
 <div id="isotope" class="section level2 hasAnchor" number="5.8">

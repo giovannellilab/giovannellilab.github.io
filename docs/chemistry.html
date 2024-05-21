@@ -123,7 +123,7 @@
 <li class="chapter" data-level="4.9" data-path="chemistry.html"><a href="chemistry.html#tds---total-dissolved-solids"><i class="fa fa-check"></i><b>4.9</b> TDS - Total Dissolved Solids</a></li>
 <li class="chapter" data-level="4.10" data-path="chemistry.html"><a href="chemistry.html#salinity"><i class="fa fa-check"></i><b>4.10</b> Salinity</a></li>
 <li class="chapter" data-level="4.11" data-path="chemistry.html"><a href="chemistry.html#density"><i class="fa fa-check"></i><b>4.11</b> Density</a></li>
-<li class="chapter" data-level="4.12" data-path="chemistry.html"><a href="chemistry.html#alcalinity"><i class="fa fa-check"></i><b>4.12</b> Alcalinity</a></li>
+<li class="chapter" data-level="4.12" data-path="chemistry.html"><a href="chemistry.html#alkalinity"><i class="fa fa-check"></i><b>4.12</b> Alkalinity</a></li>
 <li class="chapter" data-level="4.13" data-path="chemistry.html"><a href="chemistry.html#melting-temperature"><i class="fa fa-check"></i><b>4.13</b> Melting Temperature</a></li>
 <li class="chapter" data-level="4.14" data-path="chemistry.html"><a href="chemistry.html#gas-laws"><i class="fa fa-check"></i><b>4.14</b> Gas laws</a></li>
 </ul></li>
@@ -185,7 +185,7 @@
 <ul>
 <li class="chapter" data-level="9.2.1" data-path="protocols.html"><a href="protocols.html#sulphide-1"><i class="fa fa-check"></i><b>9.2.1</b> Sulphide</a></li>
 <li class="chapter" data-level="9.2.2" data-path="protocols.html"><a href="protocols.html#ferrous-iron"><i class="fa fa-check"></i><b>9.2.2</b> Ferrous Iron</a></li>
-<li class="chapter" data-level="9.2.3" data-path="protocols.html"><a href="protocols.html#alkalinity"><i class="fa fa-check"></i><b>9.2.3</b> Alkalinity</a></li>
+<li class="chapter" data-level="9.2.3" data-path="protocols.html"><a href="protocols.html#alkalinity-1"><i class="fa fa-check"></i><b>9.2.3</b> Alkalinity</a></li>
 <li class="chapter" data-level="9.2.4" data-path="protocols.html"><a href="protocols.html#silica"><i class="fa fa-check"></i><b>9.2.4</b> Silica</a></li>
 </ul></li>
 </ul></li>
@@ -204,6 +204,10 @@
 <li class="chapter" data-level="11.5" data-path="statistic.html"><a href="statistic.html#p-value"><i class="fa fa-check"></i><b>11.5</b> P-Value</a></li>
 <li class="chapter" data-level="11.6" data-path="statistic.html"><a href="statistic.html#t-test"><i class="fa fa-check"></i><b>11.6</b> T-Test</a></li>
 <li class="chapter" data-level="11.7" data-path="statistic.html"><a href="statistic.html#anova-test"><i class="fa fa-check"></i><b>11.7</b> Anova test</a></li>
+<li class="chapter" data-level="11.8" data-path="statistic.html"><a href="statistic.html#ggplot2"><i class="fa fa-check"></i><b>11.8</b> GGplot2</a>
+<ul>
+<li class="chapter" data-level="11.8.1" data-path="statistic.html"><a href="statistic.html#geompoint"><i class="fa fa-check"></i><b>11.8.1</b> geompoint</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="12" data-path="geology.html"><a href="geology.html"><i class="fa fa-check"></i><b>12</b> Geology</a>
 <ul>
@@ -280,21 +284,33 @@ The solubility of gas has a different behaviour: if the temperature increases, t
 <div id="temperature" class="section level2 hasAnchor" number="4.3">
 <h2><span class="header-section-number">4.3</span> Temperature<a href="chemistry.html#temperature" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Temperature is a physical quantity that is a measure of hotness or coldness of matter or radiation.<br />
-Temperature is measured with a thermometer. The most common scales are the Celsius scale (with the unit °C), the Fahrenheit scale (with the unit °F), and the Kelvin scale (with the unit K).</p>
+Temperature is measured with a thermometer. The most common scales are the Celsius scale (with the unit <span class="math inline">\(°C\)</span>), the Fahrenheit scale (with the unit °F), and the Kelvin scale (with the unit <span class="math inline">\(K\)</span>).</p>
 <p>Conversion between the temperature scales (add TABLE)</p>
 </div>
 <div id="ph-and-poh---pondus-hydrogenium-and-pondus-oh" class="section level2 hasAnchor" number="4.4">
 <h2><span class="header-section-number">4.4</span> pH and pOH - pondus Hydrogenium and pondus OH<a href="chemistry.html#ph-and-poh---pondus-hydrogenium-and-pondus-oh" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>In chemistry, pH is a scale used to specify the acidity or basicity of an aqueous solution.<br />
-The pH scale is logarithmic and inversely indicates the concentration of hydrogen ions in the solution.<br />
-pH = <span class="math inline">\(-log_{10}[H^{+}]\)</span><br />
-The pOH scale is logarithmic and inversely indicates the concentration of hydroxide ions in the solution.<br />
-pOH = <span class="math inline">\(-log_{10}[OH^{-}]\)</span><br />
-At 25°C (77°F), solutions with a pH less than 7 are acidic, while solutions with a pH higher than 7 are basic. Solutions with a pH of 7 at this temperature are neutral (for example pure water, in which there is the same concentration of <span class="math inline">\(H^{+}\)</span> ions as <span class="math inline">\(OH^{-}\)</span> ions).<br />
+In chemistry, pH is a scale used to specify the acidity or basicity of an aqueous solution.<br />
+The pH scale is logarithmic and inversely indicates the concentration of hydrogen ions in the solution.
+<p align="center">
+<span class="math inline">\(pH = -log_{10}[H^{+}]\)</span>
 </p>
-<p>To calculate the concentration of <span class="math inline">\(H^{+}\)</span> or <span class="math inline">\(OH^{-}\)</span> in a sample with a specific pH/pOH value:<br />
-<span class="math inline">\([H^{+}]\)</span> = <span class="math inline">\(10^{-pH}\)</span><br />
-<span class="math inline">\([OH^{-}]\)</span> = <span class="math inline">\(10^{-pOH}\)</span><br />
+The pOH scale is logarithmic and inversely indicates the concentration of hydroxide ions in the solution.
+<p align="center">
+<span class="math inline">\(pOH = -log_{10}[OH^{-}]\)</span>
+</p>
+<p>At 25°C (77°F), solutions with a pH less than 7 are acidic, while solutions with a pH higher than 7 are basic. Solutions with a pH of 7 at this temperature are neutral (for example pure water, in which there is the same concentration of <span class="math inline">\(H^{+}\)</span> ions as <span class="math inline">\(OH^{-}\)</span> ions).<br />
+</p>
+To calculate the concentration of <span class="math inline">\(H^{+}\)</span> or <span class="math inline">\(OH^{-}\)</span> in a sample with a specific pH/pOH value:<br />
+
+<p align="center">
+<span class="math inline">\([H^{+}]\)</span> = <span class="math inline">\(10^{-pH}\)</span>
+</p>
+<br />
+
+<p align="center">
+<span class="math inline">\([OH^{-}]\)</span> = <span class="math inline">\(10^{-pOH}\)</span>
+</p>
+<p><br />
 </p>
 <p>The pH is inversely proportional to the temperature of the solution. When the temperature of a solution increases, molecular vibrations in the solution increase causing ionization and the formation of <span class="math inline">\(H^{+}\)</span> ions. More <span class="math inline">\(H^{+}\)</span> ions lead to more acidic behaviour. Due to temperature changes, the pH value of the solution changes. Therefore, pH decreases as temperature increases.<br />
 The pH is measured with a pHmeter. If the pHmeter has the temperature probe, the pH value is calculated considering the probable changes due to temperature. If the pHmeter has not the temperature probe, the real pH value should be calculated with a pH temperature correction calculator.<br />
@@ -304,9 +320,9 @@ The pH value is an important variable, since it can control biological or chemic
 <h2><span class="header-section-number">4.5</span> MVpH - MilliVolt pH<a href="chemistry.html#mvph---millivolt-ph" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The pH probe is generally a glass electrode that measures the difference in electrical potential on two sides of a thin glass membrane placed at the end of the electrode; this potential difference is linked to the difference between the concentrations of hydrogen ions at the inside and outside the membrane.<br />
 A standard pH sensor outputs a millivolt (mV) signal, which corresponds to a pH value. Moving one pH unit along the scale in any direction will correspond to a change in voltage of 59 mV.<br />
-- An output of <strong>0 mV</strong> is equal to pH 7.<br />
-- An output, included <strong>between 0 and -414.12 mV</strong> (7 x -59 mV), indicates pH &gt; 7<br />
-- An output, included <strong>between 0 and +414.12 mV</strong> (7 x 59 mV), indicates pH &lt; 7<br />
+- An output of <strong>0 mV</strong> is equal to <span class="math inline">\(pH = 7\)</span><br />
+- An output, included <strong>between 0 and -414.12 mV</strong> (7 x -59 mV), indicates <span class="math inline">\(pH &gt; 7\)</span><br />
+- An output, included <strong>between 0 and +414.12 mV</strong> (7 x 59 mV), indicates <span class="math inline">\(pH &lt; 7\)</span><br />
 </p>
 </div>
 <div id="orp---oxidation-reduction-potential" class="section level2 hasAnchor" number="4.6">
@@ -327,15 +343,15 @@ Redox is expressed as electrical potential (voltage). Generally, a reducing envi
 </div>
 <div id="do---dissolved-oxygen" class="section level2 hasAnchor" number="4.7">
 <h2><span class="header-section-number">4.7</span> DO - Dissolved Oxygen<a href="chemistry.html#do---dissolved-oxygen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Dissolved oxygen is the quantity of oxygen gas (O2), dissolved in water. 
+<p>Dissolved oxygen is the quantity of oxygen gas (<span class="math inline">\(O_{2}\)</span>), dissolved in water. 
 In general, natural chemical processes dissolve gases such as oxygen, nitrogen and carbon dioxide in the water until saturation is reached. The amount of oxygen that can be absorbed depends on many factors, such as temperature, salinity and pressure. The greatest consumption of oxygen in water occurs through the respiration of animals, microbes and plants, but also through the decomposition of dead organic matter by microbes and fungi.<br />
 Additionally, dissolved oxygen can decrease when the water body warms. In fact, for the preparation of anaerobic medium, the solutions are placed on a hot plate in order to cause the oxygen leakage, and to create an anaerobic environment.
-Dissolved oxygen is usually reported in milligrams per Liter (mg/L), in parts per million (ppm) or micromoles (umol). The oxygen concentration is also expressed as a percentage of saturation, which is the amount of oxygen present compared to the maximum value (100%) which could be contained in a specific air volume.<br />
+Dissolved oxygen is usually reported in milligrams per Liter (<span class="math inline">\(mg/L\)</span>), in parts per million (<span class="math inline">\(ppm\)</span>) or micromoles (<span class="math inline">\(μmol\)</span>). The oxygen concentration is also expressed as a percentage of saturation, which is the amount of oxygen present compared to the maximum value (100%) which could be contained in a specific air volume.<br />
 </p>
 </div>
 <div id="conductibility-spc" class="section level2 hasAnchor" number="4.8">
 <h2><span class="header-section-number">4.8</span> Conductibility (spc)<a href="chemistry.html#conductibility-spc" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Electrical conductivity, also called EC value (EC means “electrical conductivity”), is a measure of its ability to conduct electricity. The SI unit of conductivity is Siemens per meter (S/m).<br />
+<p>Electrical conductivity, also called EC value (EC means “electrical conductivity”), is a measure of its ability to conduct electricity. The SI unit of conductivity is Siemens per meter (<span class="math inline">\(S/m\)</span>).<br />
 This parameter depends on the substances dissolved in a solution.<br />
 Conductivity measurements are routinely used in many industrial and environmental applications as a quick, economical, and reliable method of measuring the ionic content in a solution.<br />
 In many cases, conductivity is directly linked to total dissolved solids (TDS).<br />
@@ -344,21 +360,21 @@ In many cases, conductivity is directly linked to total dissolved solids (TDS).<
 <div id="tds---total-dissolved-solids" class="section level2 hasAnchor" number="4.9">
 <h2><span class="header-section-number">4.9</span> TDS - Total Dissolved Solids<a href="chemistry.html#tds---total-dissolved-solids" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Total dissolved solids (TDS) is a measure of the combined dissolved content of all inorganic and organic substances present in water. Total dissolved solids (TDS) include inorganic salts, primarily calcium, magnesium, potassium, sodium, bicarbonates, chlorides and sulfates, and some small amounts of organic matter that are dissolved in water.<br />
-TDS concentrations are usually in parts per million (ppm).</p>
+TDS concentrations are usually in parts per million (<span class="math inline">\(ppm\)</span>).</p>
 </div>
 <div id="salinity" class="section level2 hasAnchor" number="4.10">
 <h2><span class="header-section-number">4.10</span> Salinity<a href="chemistry.html#salinity" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The salinity describes the amount of dissolved salts in a liquid.<br />
-In most cases, sodium chloride (NaCl) represents the largest percentage of dissolved salts.<br />
-Typical units for salt content are g/kg (g salt per kg of solution), %, ppt or even PSU.<br />
+In most cases, sodium chloride (<span class="math inline">\(NaCl\)</span>) represents the largest percentage of dissolved salts.<br />
+Typical units for salt content are <span class="math inline">\(g/kg\)</span> (g salt per kg of solution), <span class="math inline">\(%\)</span>, <span class="math inline">\(ppt\)</span> or even <span class="math inline">\(PSU\)</span>.<br />
 There is a proportionality between the salinity and conductivity. If a salt content increases, the conductivity value increases. For this reason, the salinity values can be calculated, if the conductivity value is known.</p>
 </div>
 <div id="density" class="section level2 hasAnchor" number="4.11">
 <h2><span class="header-section-number">4.11</span> Density<a href="chemistry.html#density" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>The density of a substance is the ratio between the mass of the substance and volume (how much space it takes up). Its unit of measure in the International System is kg/m3.</p>
+<p>The density of a substance is the ratio between the mass of the substance and volume (how much space it takes up). Its unit of measure in the International System is <span class="math inline">\(kg/m3\)</span>.</p>
 </div>
-<div id="alcalinity" class="section level2 hasAnchor" number="4.12">
-<h2><span class="header-section-number">4.12</span> Alcalinity<a href="chemistry.html#alcalinity" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="alkalinity" class="section level2 hasAnchor" number="4.12">
+<h2><span class="header-section-number">4.12</span> Alkalinity<a href="chemistry.html#alkalinity" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Alkalinity is a measure of water’s ability to resist pH changes that lead to acidity, or to neutralize acids and maintain a stable pH. This capacity is usually referred to as the “buffer capacity” of water.<br />
 The presence of some chemical substances, including hydroxides, carbonates and bicarbonates, affects the alkalinity of water. In simple terms, water with high alkalinity is less likely to become more acidic if it is contaminated with acidic water, such as acid rain.<br />
 Alkalinity is measured by a process called titration. An acid of known concentration, called a titrant, is added to the water.The amount of acid used to bring the water up to a specific pH level is determined by the alkalinity of the water. Once the water reaches the pH end point, it changes colour.<br />
@@ -378,12 +394,18 @@ Alkalinity is measured in units of milligrams per liter (mg/L) of calcium carbon
 <p><span class="math inline">\(Henry’s law\)</span><br />
 The solubility of a gas in a liquid sample is directly proportional to pressure gas on the liquid phase.<br />
 Example: in a carbonated drink, the carbon dioxide (gas) is present and it exercises a pressure in the bottle, higher than atmospheric pressure, which allows it to be soluble in the liquid phase. When the bottle is opened, the carbon dioxide pressure decreases with the consequent decreasing of its solubility. The observed result is the leakage of many bubbles from the liquid phase.</p>
-<p><span class="math inline">\(Boyle’s law\)</span><br />
+<span class="math inline">\(Boyle’s law\)</span><br />
 At constant temperature, a gas volume is inversely proportional to subjected pressure<br />
-P x V = k</p>
-<p><span class="math inline">\(Charles’ law\)</span><br />
+
+<p align="center">
+<span class="math inline">\(P x V = k\)</span>
+</p>
+<span class="math inline">\(Charles’ law\)</span><br />
 At constant pressure, a gas volume is directly proportional to its temperature<br />
-V/T = k</p>
+
+<p align="center">
+<span class="math inline">\(\frac{V}{T} = k\)</span>
+</p>
 
 </div>
 </div>
