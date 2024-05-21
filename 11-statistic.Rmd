@@ -13,3 +13,25 @@
 ## T-Test
 
 ## Anova test
+
+## GGplot2
+GGplot 2 is an open-source data visualization package for the statistical programming language R that provides helpful commands to create complex plots from data in a data frame. 
+
+-   **Aesthetic specifications "aes()"**
+This vignette summarises the various formats that grid drawing functions take. 
+
+Colour and fill can be specified by using a "name" (e.g. red), a rgb specification with a string of the form "#RRGGBB"; NA, for a completely transparent colour.
+ 
+Lines can be chosen by using one of the following integer or name: 0 = blank, 1 = solid, 2 = dashed, 3 = dotted, 4 = dotdash, 5 = longdash, 6 = twodash, shown below: 
+
+-     **jitter geom** is a convenient shortcut for geom_point(position = "jitter"). It adds a small amount of random variation to the location of each point, and is a useful way of handling overplotting caused by discreteness in smaller datasets.
+
+### geom_point
+The point geom is used to create scatterplots. The scatterplot is most useful for displaying the relationship between two continuous variables. It can be used to compare one continuous and one categorical variable, or two categorical variables. 
+
+### geom_boxplot
+The boxplot compactly displays the distribution of a continuous variable. It visualises five summary statistics (the median, two hinges and two whiskers), and all "outlying" points individually.
+
+
+
+
