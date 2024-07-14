@@ -116,6 +116,10 @@ It can refer to:\
 -   **Melting point**: is the temperature at which a substance changes from a solid to a liquid state 
 -   **Melting temperature**: is the temperature at which the DNA double helix dissociates into single strands.
 
+## Calibration curve
+Calibration curve is an analytical method to measure the unknown concentration of substance present in sample, based on the relation between the concentration of a targeted substance and the corresponding signal like absorbance. 
+To make calibration curve, standard solutions are required: the known concentrations of these solutions correspond to specific signals. 
+
 ## Gas laws
 
 $Henry’s law$ \

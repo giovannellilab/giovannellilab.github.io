@@ -1,23 +1,24 @@
 # Molecular Biology
 
 ## DNA extraction protocol
-Objectives: 
+Objectives: to extract DNA from microbial cells of the sample and to sequence them to understand the microbial communities present.
+In the laboratory, the main DNA extraction protocol are: 
+- PowerSoil kit: it is a quick method, with low content of hazardous chemicals; but there is the risk of contamination and it is expensive;
+- Phenol-Chloroform protocol: it is time-consuming and hazardous chemicals are used; it increases chances for contamination and sample mishandling because of the greater hands-on effort and multiple tube transfers involved; but it is cheap.
 
-Components and their functions: 
-1) NaCl
-2) EDTA
-3) Tris-HCl
-4) CTAB
-5) PBS
-6) Lysozime
-7) Proteinase K
-8) SDS
-9) Phenol
-10) Chloroform
-11) Isoamyl-alcohol
-12) Isopropanol (2-propanol)
-13) Sodium Acetate
-14) Ethanol
+DNA extraction is divided in different steps:
+1) Buffering the extraction;
+2) Membrane lysis;
+3) Stabilizing DNA;
+4) Proteins/Organics removal;
+5) DNA separation;
+6) DNA recovery.
+
+In the first phases, extraction buffer solution (Tris-HCL, EDTA, NaCl, PBS, CTAB) acts on the membrane layers, buffering the pH, chelating cations used by nucleases (whose action has to be avoided), protecting the negatively charged phosphate groups of the DNA through the positively charge of salts. The consequent cell lysis can be carried out through mechanical effects like (sonication, freezing-thawing) or chemical effects through SDS (sodium dodecyl sulphate) which breaks down the lipids in the cell membrane and the high affinity to bind proteins help to denature them quickly. The enzymatic actions is carried out by: lysozime, that reacts with peptidoglycan layer and breaks the glycosidic bond (ok for Gram+) and it is used in combination with detergents to break the cell wall and  membrane (ok for Gram-); proteinase k, digesting contaminating proteins and protecting the nucleic acids from nuclease attack, by working also in presence in EDTA that chelates cations. 
+In the final phases, Phenol:Chloroform:Isoamyl Alcohol (25:24:1) used to promote the partitioning of lipids and cellular debris into the organic phase, leaving isolated DNA in the aqueous phase. In this phase, it is important to consider the salinity of sample because high values can cause variation in densities and to invert the phase in this step of DNA extraction. 
+For DNA precipitation, Sodium Acetate is used, by exploiting the positive charges neutralize the negative charge on the phospate groups on the nucleic acids, making the molecule far less hydrophilic and, therefore, much less soluble in water; isopropanol is used because the DNA is less soluble in it; its use at  room temperature is necessary to reduce the salt content that may precipitate with the DNA.
+For DNA washing, ethanol is used to remove the excess of salts. The cold alcohol helps the DNA precipitate (solidify and appear) more quickly.
+For DNA recovery, Tris buffer is used to solubilize the DNA in an alkaline pH making easier DNA dissolving.
 
 ## Electrophoresis gel DNA
 Nucleic acid gel electrophoresis is a molecular biology technique that allows for the separation, identification, and purification of DNA and RNA fragments based on size and charge. In this technique, DNA and RNA molecules are separated by applying an electric field that moves the negatively charged nucleic acids through a matrix of:

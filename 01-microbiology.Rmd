@@ -27,11 +27,25 @@ The basic structural unit of the biofilm is the microcolony. The proximity of ce
 Biofilms also provide an ideal niche for the exchange of extrachromosomal DNA (plasmids). Conjugation (the mechanism of plasmid transfer) occurs at a greater rate between cells in biofilms than between planktonic cells.\
 
 ## Absorbance
-
-## Calibration curve
+Absorbance is a light property depending on its interaction with the matter. This concept is applied to quantify the concentrations of absorbing molecules or compounds in a sample.\
+Lambert-Beer Law describes the relation between absorbance (A), concentration of the absorbing substances (c), path length (l) and extinction coefficient (ε) which depends on the kind of absorsing substances.\
+<p align="center"> $A = ε  c  l$ </p>
+With the increasing of the concentration of absorbing substances, the absorbance increases.\
+A spectrophotometer device is used to measure the absorbance values, exploiting the right wavelength of absorption of the substance of interest. The sample is put into cuvettes (1 mL or 2 mL) that are transparent to ensure the maximum light transmission. The cuvette is located into a spectrophotometric cell, so that the light path is horizontal: the light is directed to one side, it arrives to the sample and the transmitted light is detected on the opposite side.\
 
 ## Winogradsky Column
+Winogradsky Column is an experimental system in which an environmental ecosystem is reproduced on small scale, used to study the microbial ecology.\
+For its realization, transparent container (like flasks) are filled with sediments or soils or mud, supplementing with compounds that supply carbon (organic and inorganic) sources, nitrogen sources, sulphur sources, phosphorous sources, vitamins and minerals. Inorganic carbon source can be supplied by newspaper's pieces, atmospheric $CO_{2}$, egg shell while organic carbon source can be represented by organic matter present in the soil sample; nitrogen source can be supplied by fertilizers or mineral salts; sulphur source can be supplied by egg yolk or matchsticks (the red section); the phosporous source can be supplied by fertilizers or salt minerals or matchsticks; vitamins and minerals can be supplied by fertilizers or vitamin supplements.\
+The aims of this system are:\
+- to understand how elements and nutrients affect the microbial diversity and the microbial role in the biogeochemical cycles;
+- to visualize the complexity of environmental ecosystem.\
+Over time, the column is stratified: in the upper parts, the oxygenic metabolisms are active and they produce compounds that are used by suboxic and anoxic microbial communities below the surface zones. The different metabolisms are visible because their byproducts confer differents colours in the flasks. 
 
-## Dilution 
+## Serial Dilution 
+The serial dilution is a stepwise method that allows to dilute a sample using a constant dilution factor, with the aim to reach the desired concentration of a specific substance. 
+In microbiology, the serial dilutions are used to quantify the concentrations of microbes or to isolate one microbial species into culture media in isolation experiments. 
 
 ## Isolation cultures
+Isolation cultures is microbiological technique that allows to separate one microbial species to mixed and complex microbial communities, obtaining a pure culture.
+This technique provides the enrichment phase in which specific microbial species are exposed to optimal growth conditions (supplied by nutrients of the culture medium, temperature of incubation, pH, salinity) and other competitive ones are exposed to unfavorable conditions. 
+Each microbial species requires specific growth conditions; to improve them, real environmental parameters of the sample have to be reproduced in the laboratory. 
